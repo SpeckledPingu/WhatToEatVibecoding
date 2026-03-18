@@ -1,0 +1,280 @@
+{
+  "_README": "This file contains all normalization rules for aligning food data across recipes, receipts, and pantry inventories. Edit this file to customize mappings for YOUR food — no Python code changes needed. This file is also loaded into a SQL table (WS04) to demonstrate data-driven joins and lookups.",
+
+  "food_categories": {
+    "_description": "Standard food categories used across all data sources. Each category lists example foods that belong to it. Used for automatic categorization when a category is missing.",
+    "protein": ["chicken", "chicken breast", "chicken thigh", "beef", "ground beef", "steak", "pork", "pork chop", "bacon", "ham", "sausage", "turkey", "lamb", "fish", "salmon", "tuna", "shrimp", "cod", "tilapia", "crab", "lobster", "tofu", "tempeh", "beans", "black beans", "kidney beans", "chickpeas", "lentils", "edamame"],
+    "vegetable": ["carrot", "onion", "garlic", "celery", "potato", "sweet potato", "spinach", "kale", "lettuce", "broccoli", "cauliflower", "pepper", "bell pepper", "green pepper", "red pepper", "jalapeno", "zucchini", "squash", "corn", "peas", "green beans", "asparagus", "mushroom", "cucumber", "eggplant", "cabbage", "brussels sprouts", "artichoke", "beet", "radish", "turnip", "leek", "scallion", "green onion", "ginger"],
+    "fruit": ["apple", "banana", "orange", "lemon", "lime", "grapefruit", "strawberry", "blueberry", "raspberry", "blackberry", "grape", "mango", "pineapple", "peach", "pear", "plum", "cherry", "watermelon", "cantaloupe", "avocado", "tomato", "coconut", "fig", "date", "cranberry", "pomegranate", "kiwi", "papaya"],
+    "dairy": ["milk", "cheese", "cheddar", "mozzarella", "parmesan", "swiss", "provolone", "gouda", "brie", "cream cheese", "cottage cheese", "ricotta", "yogurt", "greek yogurt", "butter", "eggs", "cream", "heavy cream", "whipping cream", "half and half", "sour cream", "ice cream"],
+    "grain": ["bread", "sourdough", "wheat bread", "white bread", "rice", "white rice", "brown rice", "jasmine rice", "basmati rice", "pasta", "spaghetti", "penne", "fettuccine", "linguine", "macaroni", "noodles", "egg noodles", "ramen", "flour", "all-purpose flour", "bread flour", "oats", "oatmeal", "granola", "cereal", "tortilla", "pita", "naan", "quinoa", "couscous", "barley", "cornmeal", "crackers", "breadcrumbs", "panko"],
+    "spice": ["salt", "black pepper", "white pepper", "cayenne", "red pepper flakes", "cumin", "paprika", "smoked paprika", "chili powder", "oregano", "basil", "thyme", "rosemary", "parsley", "cilantro", "dill", "bay leaf", "cinnamon", "nutmeg", "cloves", "allspice", "ginger powder", "garlic powder", "onion powder", "turmeric", "coriander", "cardamom", "curry powder", "italian seasoning", "everything bagel seasoning"],
+    "condiment": ["olive oil", "vegetable oil", "canola oil", "coconut oil", "sesame oil", "vinegar", "balsamic vinegar", "apple cider vinegar", "rice vinegar", "white vinegar", "soy sauce", "fish sauce", "worcestershire sauce", "hot sauce", "sriracha", "ketchup", "mustard", "dijon mustard", "mayonnaise", "honey", "maple syrup", "molasses", "tomato sauce", "tomato paste", "salsa", "peanut butter", "almond butter", "jam", "jelly", "broth", "chicken broth", "beef broth", "vegetable broth", "stock", "barbecue sauce", "teriyaki sauce", "tahini", "miso paste", "hoisin sauce"],
+    "beverage": ["coffee", "tea", "green tea", "juice", "orange juice", "apple juice", "soda", "sparkling water", "coconut water", "almond milk", "oat milk", "soy milk", "wine", "beer", "kombucha"],
+    "snack": ["chips", "tortilla chips", "potato chips", "crackers", "pretzels", "popcorn", "nuts", "almonds", "walnuts", "pecans", "peanuts", "cashews", "trail mix", "granola bar", "chocolate", "dark chocolate", "candy", "dried fruit", "raisins", "fruit snacks", "hummus", "guacamole"],
+    "other": []
+  },
+
+  "name_aliases": {
+    "_description": "Maps a canonical (normalized) food name to all known variations. When the normalization code encounters any variation, it maps to the canonical name. Add your own aliases as you discover mismatches in your data.",
+    "chicken breast": ["chicken breasts", "boneless chicken", "skinless chicken breast", "boneless skinless chicken breast", "chicken cutlet", "chicken fillet", "chkn breast", "chkn brst", "bnls chkn", "bnls sknls chkn"],
+    "chicken thigh": ["chicken thighs", "boneless chicken thigh", "bone-in chicken thigh"],
+    "ground beef": ["hamburger", "hamburger meat", "minced beef", "ground chuck", "ground sirloin", "lean ground beef"],
+    "steak": ["sirloin", "ribeye", "rib eye", "ny strip", "new york strip", "filet mignon", "flank steak", "skirt steak"],
+    "bacon": ["thick cut bacon", "turkey bacon", "center cut bacon", "applewood bacon"],
+    "salmon": ["atlantic salmon", "wild salmon", "sockeye salmon", "salmon fillet", "salmon filet"],
+    "shrimp": ["prawns", "large shrimp", "jumbo shrimp", "raw shrimp", "cooked shrimp"],
+    "milk": ["whole milk", "2% milk", "1% milk", "skim milk", "reduced fat milk", "fat free milk", "whl milk", "2pct milk"],
+    "eggs": ["large eggs", "egg", "dozen eggs", "extra large eggs", "cage free eggs", "free range eggs", "brown eggs"],
+    "butter": ["unsalted butter", "salted butter", "sweet cream butter"],
+    "cheddar": ["cheddar cheese", "sharp cheddar", "mild cheddar", "medium cheddar", "shredded cheddar"],
+    "mozzarella": ["mozzarella cheese", "fresh mozzarella", "shredded mozzarella", "part skim mozzarella"],
+    "parmesan": ["parmesan cheese", "parmigiano reggiano", "grated parmesan", "shredded parmesan"],
+    "cream cheese": ["philadelphia cream cheese", "neufchatel", "whipped cream cheese"],
+    "yogurt": ["plain yogurt", "vanilla yogurt", "flavored yogurt"],
+    "greek yogurt": ["plain greek yogurt", "nonfat greek yogurt"],
+    "olive oil": ["extra virgin olive oil", "evoo", "light olive oil", "pure olive oil"],
+    "vegetable oil": ["canola oil", "corn oil", "blended oil"],
+    "soy sauce": ["shoyu", "tamari", "low sodium soy sauce", "light soy sauce", "dark soy sauce"],
+    "black pepper": ["ground pepper", "cracked pepper", "peppercorn", "ground black pepper", "freshly ground pepper"],
+    "garlic": ["garlic cloves", "fresh garlic", "garlic bulb", "whole garlic", "minced garlic"],
+    "onion": ["yellow onion", "white onion", "sweet onion", "vidalia onion", "spanish onion"],
+    "red onion": ["purple onion"],
+    "green onion": ["scallion", "scallions", "spring onion", "spring onions"],
+    "tomato": ["roma tomato", "plum tomato", "beefsteak tomato", "vine tomato", "on the vine tomato"],
+    "cherry tomato": ["grape tomato", "mini tomato"],
+    "potato": ["russet potato", "idaho potato", "baking potato"],
+    "sweet potato": ["yam", "garnet yam"],
+    "rice": ["white rice", "long grain rice"],
+    "jasmine rice": ["thai jasmine rice"],
+    "brown rice": ["whole grain rice"],
+    "pasta": ["dried pasta"],
+    "spaghetti": ["thin spaghetti", "angel hair"],
+    "bread": ["sandwich bread", "sliced bread"],
+    "sourdough": ["sourdough bread", "sourdough loaf"],
+    "flour": ["all-purpose flour", "ap flour", "plain flour", "white flour"],
+    "sugar": ["granulated sugar", "white sugar", "cane sugar"],
+    "brown sugar": ["light brown sugar", "dark brown sugar", "packed brown sugar"],
+    "chicken broth": ["chicken stock"],
+    "beef broth": ["beef stock"],
+    "vegetable broth": ["vegetable stock"],
+    "bell pepper": ["sweet pepper"],
+    "spinach": ["baby spinach", "fresh spinach"],
+    "lettuce": ["romaine", "romaine lettuce", "iceberg lettuce", "mixed greens", "spring mix", "salad greens"],
+    "mushroom": ["mushrooms", "white mushroom", "button mushroom", "cremini", "baby bella"],
+    "cilantro": ["fresh cilantro", "coriander leaves"],
+    "parsley": ["fresh parsley", "flat leaf parsley", "italian parsley", "curly parsley"],
+    "basil": ["fresh basil", "sweet basil"],
+    "heavy cream": ["whipping cream", "heavy whipping cream"],
+    "tortilla": ["flour tortilla", "corn tortilla", "tortillas"],
+    "peanut butter": ["creamy peanut butter", "crunchy peanut butter", "natural peanut butter"]
+  },
+
+  "qualifiers_to_strip": {
+    "_description": "Marketing and descriptor words to remove from food names during normalization. These words add no value for matching purposes.",
+    "marketing": ["organic", "natural", "all natural", "farm fresh", "artisan", "homestyle", "premium", "gourmet", "handcrafted", "small batch", "locally sourced", "sustainably sourced"],
+    "diet_and_health": ["non-gmo", "gluten free", "gluten-free", "sugar free", "sugar-free", "no sugar added", "low fat", "fat free", "reduced fat", "low sodium", "sodium free", "heart healthy", "keto", "paleo", "vegan", "plant based", "plant-based", "lite", "light"],
+    "sourcing": ["cage free", "cage-free", "free range", "free-range", "grass fed", "grass-fed", "pasture raised", "pasture-raised", "wild caught", "wild-caught", "line caught", "sustainably caught", "hormone free", "antibiotic free"],
+    "freshness": ["fresh", "frozen", "thawed", "previously frozen", "never frozen", "fresh-picked", "vine ripened", "sun dried", "sun-dried", "air dried"],
+    "preparation": ["pre-washed", "pre-cut", "pre-sliced", "ready to eat", "ready to cook", "heat and serve", "microwaveable", "instant", "quick cook"]
+  },
+
+  "packaging_terms_to_strip": {
+    "_description": "Packaging and container words to remove from food names. These describe how the food is sold, not what it is.",
+    "containers": ["bag", "box", "can", "jar", "bottle", "container", "carton", "pack", "package", "pouch", "tub", "tin", "tube", "sleeve", "wrapper", "case", "crate", "basket"],
+    "produce_units": ["bunch", "bundle", "head", "stalk", "stalks", "bulb", "clove", "cloves", "ear", "sprig", "sprigs", "leaf", "leaves"],
+    "portion_descriptors": ["block", "stick", "bar", "wedge", "wheel", "round", "slab", "patty", "patties", "fillet", "filet", "cutlet", "chop", "roast", "roll", "loaf", "slice", "slices"]
+  },
+
+  "size_patterns_to_strip": {
+    "_description": "Regex patterns for size/weight/count info to remove from food names. The Python normalization code should apply these as regex removals.",
+    "weight_patterns": ["\\d+\\.?\\d*\\s*oz\\b", "\\d+\\.?\\d*\\s*lb\\b", "\\d+\\.?\\d*\\s*lbs\\b", "\\d+\\.?\\d*\\s*g\\b", "\\d+\\.?\\d*\\s*kg\\b", "\\d+\\.?\\d*\\s*mg\\b"],
+    "volume_patterns": ["\\d+\\.?\\d*\\s*gal\\b", "\\d+\\.?\\d*\\s*ml\\b", "\\d+\\.?\\d*\\s*liter\\b", "\\d+\\.?\\d*\\s*liters\\b", "\\d+\\.?\\d*\\s*fl\\s*oz\\b", "\\d+\\.?\\d*\\s*qt\\b", "\\d+\\.?\\d*\\s*pt\\b"],
+    "count_patterns": ["\\d+\\.?\\d*\\s*ct\\b", "\\d+\\.?\\d*\\s*count\\b", "\\d+\\.?\\d*\\s*pk\\b", "\\d+\\.?\\d*\\s*pack\\b", "\\d+\\.?\\d*\\s*piece\\b", "\\d+\\.?\\d*\\s*pieces\\b"],
+    "size_words": ["small", "medium", "large", "extra large", "jumbo", "mini", "petite", "king size", "family size", "snack size", "single", "double", "triple", "half", "dozen"]
+  },
+
+  "abbreviations": {
+    "_description": "Common abbreviations found on receipts and in data. Maps abbreviation to the full word. Applied during normalization.",
+    "chkn": "chicken",
+    "brst": "breast",
+    "bnls": "boneless",
+    "sknls": "skinless",
+    "grnd": "ground",
+    "org": "organic",
+    "whl": "whole",
+    "grn": "green",
+    "blk": "black",
+    "wht": "white",
+    "brn": "brown",
+    "rd": "red",
+    "ylw": "yellow",
+    "lt": "light",
+    "dk": "dark",
+    "sm": "small",
+    "med": "medium",
+    "lg": "large",
+    "xl": "extra large",
+    "evoo": "olive oil",
+    "pb": "peanut butter",
+    "oj": "orange juice",
+    "aj": "apple juice",
+    "ff": "fat free",
+    "lf": "low fat",
+    "rf": "reduced fat",
+    "ls": "low sodium",
+    "spag": "spaghetti",
+    "mac": "macaroni",
+    "choc": "chocolate",
+    "strbry": "strawberry",
+    "bluebry": "blueberry",
+    "rspbry": "raspberry",
+    "parm": "parmesan",
+    "mozz": "mozzarella",
+    "tom": "tomato",
+    "mush": "mushroom",
+    "broc": "broccoli",
+    "cauli": "cauliflower",
+    "cucu": "cucumber",
+    "jal": "jalapeno",
+    "pep": "pepper",
+    "pot": "potato",
+    "sw pot": "sweet potato",
+    "cinn": "cinnamon"
+  },
+
+  "category_substitution_rules": {
+    "_description": "Rules for when one food can reasonably substitute for another in a recipe. Used by the recipe matching system (WS05) to suggest alternatives when an exact ingredient is missing. Sub-categories enable smarter matching — substituting within a sub-category is more reliable than across them.",
+    "protein": {
+      "substitutable_within_subcategory": true,
+      "sub_categories": {
+        "poultry": ["chicken", "chicken breast", "chicken thigh", "turkey", "duck", "cornish hen"],
+        "red_meat": ["beef", "ground beef", "steak", "pork", "pork chop", "lamb", "veal", "bison"],
+        "seafood": ["salmon", "tuna", "shrimp", "cod", "tilapia", "halibut", "mahi mahi", "crab", "lobster", "scallops"],
+        "plant_protein": ["tofu", "tempeh", "seitan", "beans", "black beans", "kidney beans", "chickpeas", "lentils", "edamame"]
+      },
+      "notes": "Substitutions within sub-categories usually work (chicken for turkey). Across sub-categories is risky (tofu for steak changes the dish significantly)."
+    },
+    "dairy": {
+      "substitutable_within_subcategory": true,
+      "sub_categories": {
+        "cheese_hard": ["cheddar", "swiss", "provolone", "gouda", "gruyere", "parmesan", "pecorino"],
+        "cheese_soft": ["mozzarella", "brie", "camembert", "cream cheese", "ricotta", "cottage cheese", "goat cheese"],
+        "milk_liquid": ["milk", "half and half", "buttermilk"],
+        "cream": ["heavy cream", "whipping cream", "sour cream", "creme fraiche"],
+        "cultured": ["yogurt", "greek yogurt", "kefir"]
+      },
+      "notes": "Hard cheeses can often swap. Soft cheeses are trickier. Milk and cream have different fat content affecting recipes."
+    },
+    "grain": {
+      "substitutable_within_subcategory": true,
+      "sub_categories": {
+        "pasta": ["spaghetti", "penne", "fettuccine", "linguine", "macaroni", "rigatoni", "farfalle", "rotini", "orzo", "angel hair"],
+        "rice": ["white rice", "rice", "jasmine rice", "basmati rice", "brown rice", "arborio rice"],
+        "bread": ["bread", "sourdough", "wheat bread", "white bread", "ciabatta", "baguette", "pita", "naan"],
+        "flour": ["flour", "all-purpose flour", "bread flour", "whole wheat flour"]
+      },
+      "notes": "Pasta shapes are highly interchangeable. Rice varieties mostly swap well. Bread types depend on the recipe."
+    },
+    "vegetable": {
+      "substitutable_within_subcategory": false,
+      "notes": "Vegetables are generally NOT substitutable — carrots and spinach serve very different purposes in a recipe. The category match is listed as a suggestion only, not a reliable swap."
+    },
+    "fruit": {
+      "substitutable_within_subcategory": false,
+      "notes": "Fruits are rarely directly substitutable — apple and mango have very different flavors and textures."
+    },
+    "spice": {
+      "substitutable_within_subcategory": false,
+      "notes": "Spices are NOT substitutable — cumin and cinnamon are completely different. Category-level matching for spices should be flagged as unreliable."
+    },
+    "condiment": {
+      "substitutable_within_subcategory": false,
+      "notes": "Condiments serve specific purposes — soy sauce and ketchup are not interchangeable."
+    }
+  },
+
+  "shelf_life_defaults": {
+    "_description": "Default shelf life in WEEKS by category and storage type. Used when a specific food item is not found in the FoodShelfLife database table. Values are conservative estimates.",
+    "protein":   {"fridge": 1, "freezer": 16, "pantry": null},
+    "vegetable": {"fridge": 1, "freezer": 26, "pantry": 2},
+    "fruit":     {"fridge": 1, "freezer": 26, "pantry": 1},
+    "dairy":     {"fridge": 2, "freezer": 12, "pantry": null},
+    "grain":     {"fridge": 2, "freezer": 26, "pantry": 26},
+    "spice":     {"fridge": null, "freezer": null, "pantry": 104},
+    "condiment": {"fridge": 12, "freezer": null, "pantry": 52},
+    "beverage":  {"fridge": 2, "freezer": null, "pantry": 52},
+    "snack":     {"fridge": null, "freezer": null, "pantry": 8},
+    "other":     {"fridge": 2, "freezer": 12, "pantry": 4}
+  },
+
+  "shelf_life_overrides": {
+    "_description": "Specific shelf life values (in weeks) for individual foods, overriding the category defaults above. Add your own items here as you learn how long YOUR food lasts. Storage type is the EXPECTED storage location.",
+    "chicken breast":   {"weeks": 1,  "storage": "fridge"},
+    "ground beef":      {"weeks": 1,  "storage": "fridge"},
+    "salmon":           {"weeks": 1,  "storage": "fridge"},
+    "shrimp":           {"weeks": 1,  "storage": "fridge"},
+    "bacon":            {"weeks": 2,  "storage": "fridge"},
+    "milk":             {"weeks": 1,  "storage": "fridge"},
+    "eggs":             {"weeks": 4,  "storage": "fridge"},
+    "butter":           {"weeks": 8,  "storage": "fridge"},
+    "cheddar":          {"weeks": 6,  "storage": "fridge"},
+    "mozzarella":       {"weeks": 3,  "storage": "fridge"},
+    "yogurt":           {"weeks": 3,  "storage": "fridge"},
+    "heavy cream":      {"weeks": 3,  "storage": "fridge"},
+    "bread":            {"weeks": 1,  "storage": "pantry"},
+    "tortilla":         {"weeks": 3,  "storage": "pantry"},
+    "rice":             {"weeks": 104, "storage": "pantry"},
+    "pasta":            {"weeks": 104, "storage": "pantry"},
+    "flour":            {"weeks": 52, "storage": "pantry"},
+    "sugar":            {"weeks": 104, "storage": "pantry"},
+    "olive oil":        {"weeks": 78, "storage": "pantry"},
+    "soy sauce":        {"weeks": 156, "storage": "pantry"},
+    "honey":            {"weeks": 520, "storage": "pantry"},
+    "vinegar":          {"weeks": 260, "storage": "pantry"},
+    "spinach":          {"weeks": 1,  "storage": "fridge"},
+    "lettuce":          {"weeks": 1,  "storage": "fridge"},
+    "carrot":           {"weeks": 3,  "storage": "fridge"},
+    "celery":           {"weeks": 2,  "storage": "fridge"},
+    "potato":           {"weeks": 4,  "storage": "pantry"},
+    "onion":            {"weeks": 6,  "storage": "pantry"},
+    "garlic":           {"weeks": 8,  "storage": "pantry"},
+    "tomato":           {"weeks": 1,  "storage": "counter"},
+    "apple":            {"weeks": 4,  "storage": "fridge"},
+    "banana":           {"weeks": 1,  "storage": "counter"},
+    "lemon":            {"weeks": 3,  "storage": "fridge"},
+    "avocado":          {"weeks": 1,  "storage": "counter"}
+  },
+
+  "weather_mapping": {
+    "_description": "Maps real weather data from the Open-Meteo API to recipe weather tags. Adjust the temperature threshold and WMO code ranges to match your preferences.",
+    "temperature_threshold_f": 60,
+    "temperature_labels": {
+      "below_threshold": "cold",
+      "at_or_above_threshold": "warm"
+    },
+    "wmo_code_to_condition": {
+      "sunny": [0, 1, 2, 3],
+      "cloudy": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+      "rainy": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+    }
+  },
+
+  "common_locations": {
+    "_description": "Preset city coordinates for the weather API. Add your own city here.",
+    "New York":    {"latitude": 40.7128, "longitude": -74.0060},
+    "Los Angeles": {"latitude": 34.0522, "longitude": -118.2437},
+    "Chicago":     {"latitude": 41.8781, "longitude": -87.6298},
+    "Houston":     {"latitude": 29.7604, "longitude": -95.3698},
+    "Phoenix":     {"latitude": 33.4484, "longitude": -112.0740},
+    "Seattle":     {"latitude": 47.6062, "longitude": -122.3321},
+    "Denver":      {"latitude": 39.7392, "longitude": -104.9903},
+    "Atlanta":     {"latitude": 33.7490, "longitude": -84.3880},
+    "Miami":       {"latitude": 25.7617, "longitude": -80.1918},
+    "Boston":      {"latitude": 42.3601, "longitude": -71.0589},
+    "London":      {"latitude": 51.5074, "longitude": -0.1278},
+    "Tokyo":       {"latitude": 35.6762, "longitude": 139.6503},
+    "Sydney":      {"latitude": -33.8688, "longitude": 151.2093},
+    "Paris":       {"latitude": 48.8566, "longitude": 2.3522}
+  }
+}
