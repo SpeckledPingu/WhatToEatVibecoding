@@ -3,15 +3,15 @@
 
   "food_categories": {
     "_description": "Standard food categories used across all data sources. Each category lists example foods that belong to it. Used for automatic categorization when a category is missing.",
-    "protein": ["chicken", "chicken breast", "chicken thigh", "beef", "ground beef", "steak", "pork", "pork chop", "bacon", "ham", "sausage", "turkey", "lamb", "fish", "salmon", "tuna", "shrimp", "cod", "tilapia", "crab", "lobster", "tofu", "tempeh", "beans", "black beans", "kidney beans", "chickpeas", "lentils", "edamame"],
-    "vegetable": ["carrot", "onion", "garlic", "celery", "potato", "sweet potato", "spinach", "kale", "lettuce", "broccoli", "cauliflower", "pepper", "bell pepper", "green pepper", "red pepper", "jalapeno", "zucchini", "squash", "corn", "peas", "green beans", "asparagus", "mushroom", "cucumber", "eggplant", "cabbage", "brussels sprouts", "artichoke", "beet", "radish", "turnip", "leek", "scallion", "green onion", "ginger"],
+    "protein": ["chicken", "chicken breast", "chicken thigh", "beef", "ground beef", "steak", "pork", "pork chop", "bacon", "ham", "sausage", "turkey", "lamb", "fish", "salmon", "tuna", "shrimp", "cod", "tilapia", "crab", "lobster", "tofu", "tempeh", "beans", "black beans", "kidney beans", "chickpeas", "lentils", "edamame", "meatball", "meatballs", "red lentils", "green lentils"],
+    "vegetable": ["carrot", "onion", "garlic", "celery", "potato", "sweet potato", "spinach", "kale", "lettuce", "broccoli", "cauliflower", "pepper", "bell pepper", "green pepper", "red pepper", "jalapeno", "zucchini", "squash", "corn", "peas", "green beans", "asparagus", "mushroom", "cucumber", "eggplant", "cabbage", "brussels sprouts", "artichoke", "beet", "radish", "turnip", "leek", "scallion", "green onion", "ginger", "parsnip"],
     "fruit": ["apple", "banana", "orange", "lemon", "lime", "grapefruit", "strawberry", "blueberry", "raspberry", "blackberry", "grape", "mango", "pineapple", "peach", "pear", "plum", "cherry", "watermelon", "cantaloupe", "avocado", "tomato", "coconut", "fig", "date", "cranberry", "pomegranate", "kiwi", "papaya"],
-    "dairy": ["milk", "cheese", "cheddar", "mozzarella", "parmesan", "swiss", "provolone", "gouda", "brie", "cream cheese", "cottage cheese", "ricotta", "yogurt", "greek yogurt", "butter", "eggs", "cream", "heavy cream", "whipping cream", "half and half", "sour cream", "ice cream"],
-    "grain": ["bread", "sourdough", "wheat bread", "white bread", "rice", "white rice", "brown rice", "jasmine rice", "basmati rice", "pasta", "spaghetti", "penne", "fettuccine", "linguine", "macaroni", "noodles", "egg noodles", "ramen", "flour", "all-purpose flour", "bread flour", "oats", "oatmeal", "granola", "cereal", "tortilla", "pita", "naan", "quinoa", "couscous", "barley", "cornmeal", "crackers", "breadcrumbs", "panko"],
+    "dairy": ["milk", "cheese", "cheddar", "mozzarella", "parmesan", "swiss", "provolone", "gouda", "brie", "cream cheese", "cottage cheese", "ricotta", "yogurt", "greek yogurt", "butter", "eggs", "cream", "heavy cream", "whipping cream", "half and half", "sour cream", "ice cream", "creamer", "frozen yogurt"],
+    "grain": ["bread", "sourdough", "wheat bread", "white bread", "rice", "white rice", "brown rice", "jasmine rice", "basmati rice", "pasta", "spaghetti", "penne", "fettuccine", "linguine", "macaroni", "noodles", "egg noodles", "ramen", "flour", "all-purpose flour", "all purpose flour", "bread flour", "oats", "oatmeal", "granola", "cereal", "tortilla", "pita", "naan", "quinoa", "couscous", "barley", "cornmeal", "cornstarch", "crackers", "breadcrumbs", "panko", "panko breadcrumbs", "chia seeds", "roll"],
     "spice": ["salt", "black pepper", "white pepper", "cayenne", "red pepper flakes", "cumin", "paprika", "smoked paprika", "chili powder", "oregano", "basil", "thyme", "rosemary", "parsley", "cilantro", "dill", "bay leaf", "cinnamon", "nutmeg", "cloves", "allspice", "ginger powder", "garlic powder", "onion powder", "turmeric", "coriander", "cardamom", "curry powder", "italian seasoning", "everything bagel seasoning"],
-    "condiment": ["olive oil", "vegetable oil", "canola oil", "coconut oil", "sesame oil", "vinegar", "balsamic vinegar", "apple cider vinegar", "rice vinegar", "white vinegar", "soy sauce", "fish sauce", "worcestershire sauce", "hot sauce", "sriracha", "ketchup", "mustard", "dijon mustard", "mayonnaise", "honey", "maple syrup", "molasses", "tomato sauce", "tomato paste", "salsa", "peanut butter", "almond butter", "jam", "jelly", "broth", "chicken broth", "beef broth", "vegetable broth", "stock", "barbecue sauce", "teriyaki sauce", "tahini", "miso paste", "hoisin sauce"],
-    "beverage": ["coffee", "tea", "green tea", "juice", "orange juice", "apple juice", "soda", "sparkling water", "coconut water", "almond milk", "oat milk", "soy milk", "wine", "beer", "kombucha"],
-    "snack": ["chips", "tortilla chips", "potato chips", "crackers", "pretzels", "popcorn", "nuts", "almonds", "walnuts", "pecans", "peanuts", "cashews", "trail mix", "granola bar", "chocolate", "dark chocolate", "candy", "dried fruit", "raisins", "fruit snacks", "hummus", "guacamole"],
+    "condiment": ["olive oil", "vegetable oil", "canola oil", "coconut oil", "sesame oil", "vinegar", "balsamic vinegar", "apple cider vinegar", "rice vinegar", "white vinegar", "soy sauce", "fish sauce", "worcestershire sauce", "hot sauce", "sriracha", "ketchup", "mustard", "dijon mustard", "mayonnaise", "honey", "maple syrup", "molasses", "tomato sauce", "tomato paste", "salsa", "peanut butter", "almond butter", "jam", "jelly", "broth", "chicken broth", "beef broth", "vegetable broth", "stock", "barbecue sauce", "teriyaki sauce", "tahini", "miso paste", "hoisin sauce", "relish", "marinara sauce", "vanilla extract"],
+    "beverage": ["coffee", "tea", "green tea", "juice", "orange juice", "apple juice", "soda", "sparkling water", "coconut water", "almond milk", "oat milk", "soy milk", "wine", "beer", "kombucha", "seltzer"],
+    "snack": ["chips", "tortilla chips", "potato chips", "crackers", "pretzels", "popcorn", "nuts", "almonds", "walnuts", "pecans", "peanuts", "cashews", "trail mix", "granola bar", "chocolate", "chocolate chips", "dark chocolate", "candy", "dried fruit", "raisins", "dried cranberries", "fruit snacks", "hummus", "guacamole", "sunflower seeds"],
     "other": []
   },
 
@@ -41,7 +41,6 @@
     "onion": ["yellow onion", "white onion", "sweet onion", "vidalia onion", "spanish onion"],
     "red onion": ["purple onion"],
     "green onion": ["scallion", "scallions", "spring onion", "spring onions"],
-    "tomato": ["roma tomato", "plum tomato", "beefsteak tomato", "vine tomato", "on the vine tomato"],
     "cherry tomato": ["grape tomato", "mini tomato"],
     "potato": ["russet potato", "idaho potato", "baking potato"],
     "sweet potato": ["yam", "garnet yam"],
@@ -52,7 +51,7 @@
     "spaghetti": ["thin spaghetti", "angel hair"],
     "bread": ["sandwich bread", "sliced bread"],
     "sourdough": ["sourdough bread", "sourdough loaf"],
-    "flour": ["all-purpose flour", "ap flour", "plain flour", "white flour"],
+    "flour": ["all-purpose flour", "all purpose flour", "ap flour", "plain flour", "white flour"],
     "sugar": ["granulated sugar", "white sugar", "cane sugar"],
     "brown sugar": ["light brown sugar", "dark brown sugar", "packed brown sugar"],
     "chicken broth": ["chicken stock"],
@@ -67,7 +66,17 @@
     "basil": ["fresh basil", "sweet basil"],
     "heavy cream": ["whipping cream", "heavy whipping cream"],
     "tortilla": ["flour tortilla", "corn tortilla", "tortillas"],
-    "peanut butter": ["creamy peanut butter", "crunchy peanut butter", "natural peanut butter"]
+    "peanut butter": ["creamy peanut butter", "crunchy peanut butter", "natural peanut butter"],
+    "oats": ["rolled oats", "old fashioned oats", "old-fashioned oats", "quick oats", "steel cut oats"],
+    "crackers": ["cracker", "triscuit"],
+    "penne": ["penne pasta"],
+    "breadcrumbs": ["bread crumbs", "panko breadcrumbs", "panko"],
+    "bay leaf": ["bay leaves"],
+    "meatball": ["meatballs", "mini meatballs"],
+    "sausage": ["italian sausage", "hot italian sausage", "pork sausage", "breakfast sausage", "summer sausage", "beef sausage"],
+    "tomato": ["diced tomatoes", "crushed tomatoes", "roma tomato", "plum tomato", "beefsteak tomato", "vine tomato", "on the vine tomato"],
+    "pizza": ["frozen pizza"],
+    "broth": ["stock"]
   },
 
   "qualifiers_to_strip": {
