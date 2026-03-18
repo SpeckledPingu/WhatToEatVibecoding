@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database files (generated, not tracked)
+db/*.db
+db/*.sqlite
+db/*.sqlite3
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables (may contain secrets)
+.env
+.env.local
+
+# uv lock file is tracked, but cache is not
+.uv_cache/
+
+# Synthetic data (generated, can be recreated)
+data/synthetic/receipts/*.csv
+data/synthetic/pantry/*.csv
