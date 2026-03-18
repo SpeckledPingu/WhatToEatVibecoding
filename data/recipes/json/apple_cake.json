@@ -1,0 +1,117 @@
+{
+  "name": "Apple Cake",
+  "description": "A soft, moist cake that is a cross between a quick bread and a baked german apple pancake.",
+  "prep_time_minutes": 25,
+  "cook_time_minutes": 90,
+  "servings": 12,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "cooking spray",
+      "quantity": 1,
+      "unit": "cans",
+      "category": "other"
+    },
+    {
+      "name": "apple",
+      "quantity": 4,
+      "unit": "whole",
+      "category": "fruit"
+    },
+    {
+      "name": "sugar",
+      "quantity": 5,
+      "unit": "tablespoons",
+      "category": "other"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "category": "spice"
+    },
+    {
+      "name": "walnut",
+      "quantity": 1,
+      "unit": "cups",
+      "category": "snack"
+    },
+    {
+      "name": "flour",
+      "quantity": 11,
+      "unit": "ounces",
+      "category": "grain"
+    },
+    {
+      "name": "baking powder",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "category": "other"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "sugar",
+      "quantity": 2,
+      "unit": "cups",
+      "category": "other"
+    },
+    {
+      "name": "vegetable oil",
+      "quantity": 1,
+      "unit": "cups",
+      "category": "other"
+    },
+    {
+      "name": "water",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "category": "beverage"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "category": "other"
+    },
+    {
+      "name": "egg",
+      "quantity": 4,
+      "unit": "whole",
+      "category": "protein"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F.",
+    "Line the bottom of a tube pan with parchment paper and grease with cooking spray.",
+    "Peel, core and chop apples into 0.75-inch chunks.",
+    "In a medium bowl, toss apples with cinnamon, sugar, and walnuts, then set aside.",
+    "In a large bowl, whisk together flour, baking powder, and salt.",
+    "In a separate bowl, whisk together oil, orange juice, sugar and vanilla.",
+    "Pour sugar mixture into flour mixture and whisk until just combined.",
+    "One at a time, add eggs to batter and whisk until egg is fully incorporated.",
+    "Pour half of batter evenly into prepared pan.",
+    "Carefully pour reserved apples and walnuts into pan on top of batter.",
+    "Pour remaining batter on top and level with a spatula.",
+    "Bake at 350°F until the top of the cake has browned and tester inserted into the center of the cake comes out clean, about 1.5 hours.",
+    "Remove from oven and let cool on a wire rack until completely cooled about 2 hours.",
+    "Invert cake onto a plate and remove from pan."
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "cake"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/apple-cake/"
+}

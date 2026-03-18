@@ -1,0 +1,50 @@
+{
+  "name": "Beet Chips",
+  "description": "Thin slices of beets lightly coated in oil are baked until they turn into a delicious snack.",
+  "prep_time_minutes": 10,
+  "cook_time_minutes": 40,
+  "servings": 2,
+  "weather_temp": "cold",
+  "weather_condition": "cloudy",
+  "ingredients": [
+    {
+      "name": "beets",
+      "quantity": 3.0,
+      "unit": "whole",
+      "category": "vegetable"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "category": "condiment"
+    },
+    {
+      "name": "cooking spray",
+      "quantity": 1.0,
+      "unit": "cans",
+      "category": "other"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F with racks just above and below the center position.",
+    "Wash and peel the skin off of the beets with a vegetable peeler.",
+    "Using a mandoline or sharp knife, slice beet into thin, 1/16 inch thick slices.",
+    "Place sliced beets in a large bowl and toss with olive oil until lightly coated.",
+    "Place two wire racks on top of baking sheets.",
+    "Lightly coat each wire rack with cooking spray to prevent the beets from sticking.",
+    "Arrange beets in a single layer on top of wire racks.",
+    "Bake at 350°F.",
+    "Rotate and switch positions of baking sheets in oven after 20 minutes.",
+    "Bake until beets have dried out and edges turn golden brown, about 20 additional minutes (40 minutes in total).",
+    "Remove from oven and let cool for 10 minutes.",
+    "Chips will become crispy as they cool."
+  ],
+  "tags": [
+    "appetizers",
+    "healthy",
+    "snack",
+    "baked"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/beet-chips/"
+}

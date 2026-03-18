@@ -1,0 +1,80 @@
+{
+  "name": "Waffles",
+  "description": "Crispy, light, and delicious old-fashioned waffles adapted from Great Grandmother Catharine's recipe.",
+  "prep_time_minutes": 20,
+  "cook_time_minutes": 25,
+  "servings": 6,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "flour",
+      "quantity": 12.5,
+      "unit": "ounces",
+      "category": "grain"
+    },
+    {
+      "name": "baking powder",
+      "quantity": 1.0,
+      "unit": "tablespoons",
+      "category": "other"
+    },
+    {
+      "name": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "sugar",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "category": "spice"
+    },
+    {
+      "name": "eggs",
+      "quantity": 5.0,
+      "unit": "whole",
+      "category": "protein"
+    },
+    {
+      "name": "butter",
+      "quantity": 6.0,
+      "unit": "tablespoons",
+      "category": "dairy"
+    },
+    {
+      "name": "milk",
+      "quantity": 2.25,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "name": "cooking spray",
+      "quantity": 1.0,
+      "unit": "cans",
+      "category": "other"
+    }
+  ],
+  "instructions": [
+    "Sift flour with baking powder, salt, and sugar.",
+    "Separate egg whites and egg yolks into two bowls.",
+    "Beat egg yolks well.",
+    "Preheat waffle iron.",
+    "Make a hole in the center of the sifted ingredients.",
+    "Pour in the egg yolks, butter, and milk.",
+    "Combine with a few swift strokes until batter is pebbled looking.",
+    "Beat egg whites until stiff, but not dry.",
+    "Fold egg whites into batter until they are barely blended.",
+    "Spray waffle iron with cooking spray and pre-heat.",
+    "Pour 1.5 cups of batter onto waffle iron and spread with a spatula until bottom surface is covered.",
+    "Close the lid and cook for 4 minutes, or until waffle iron sounds as done and steam has stopped emerging.",
+    "Serve with maple syrup, honey butter, and/or sweetened strawberries."
+  ],
+  "tags": [
+    "breakfast",
+    "comfort food",
+    "american"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/waffles/"
+}

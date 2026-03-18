@@ -1,0 +1,71 @@
+{
+  "name": "Better Hummus",
+  "description": "This simple, no-fuss recipe makes a delicious hummus for a fraction of the price.",
+  "prep_time_minutes": 10,
+  "cook_time_minutes": 0,
+  "servings": 6,
+  "weather_temp": "warm",
+  "weather_condition": "sunny",
+  "ingredients": [
+    {
+      "name": "garbanzo beans",
+      "quantity": 15,
+      "unit": "ounces",
+      "category": "protein"
+    },
+    {
+      "name": "water",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "other"
+    },
+    {
+      "name": "tahini",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "canola oil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "garlic",
+      "quantity": 1,
+      "unit": "cloves",
+      "category": "vegetable"
+    },
+    {
+      "name": "sea salt",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Place all ingredients in a food processor fitted with a steel blade.",
+    "Cover and process until pureed.",
+    "Serve with pita chips, warm pitas, or veggies.",
+    "Store remaining hummus in an airtight container in the fridge for up to 10 days."
+  ],
+  "tags": [
+    "appetizers",
+    "vegetarian",
+    "snack"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/hummus/"
+}

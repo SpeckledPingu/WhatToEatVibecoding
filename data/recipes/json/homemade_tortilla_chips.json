@@ -1,0 +1,45 @@
+{
+  "name": "Homemade Tortilla Chips",
+  "description": "Cut tortillas into wedges, spray with vegetable oil, sprinkle with salt, and bake until crisp for delicious homemade chips.",
+  "prep_time_minutes": 5,
+  "cook_time_minutes": 20,
+  "servings": 4,
+  "weather_temp": "cold",
+  "weather_condition": "cloudy",
+  "ingredients": [
+    {
+      "name": "tortillas",
+      "quantity": 4.0,
+      "unit": "whole",
+      "category": "grain"
+    },
+    {
+      "name": "vegetable oil spray",
+      "quantity": 1.0,
+      "unit": "cans",
+      "category": "other"
+    },
+    {
+      "name": "salt",
+      "quantity": 2.0,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Adjust oven rack to the middle position and preheat the oven to 350°F.",
+    "Cut tortillas into 6 or 8 slices like you would a cut a pizza, then cut each slice into smaller, triangular wedges about the size of the tortilla chips that you want.",
+    "Spread the tortilla wedges onto two rimmed baking sheets.",
+    "Coat the top side of the wedges with vegetable oil spray, flip the wedges over, and spray to coat the other side.",
+    "Sprinkle wedges evenly with salt.",
+    "Bake at 350°F for 10 minutes, remove from oven, and flip wedges over.",
+    "Return to oven and continue to cook until tortillas are crisp and light brown, about 10 minutes longer.",
+    "Remove from oven and cool on a wire rack or bowl for at least 10 minutes before serving."
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "baked"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/homemade-tortilla-chips/"
+}

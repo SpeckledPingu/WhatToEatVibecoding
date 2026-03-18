@@ -1,0 +1,63 @@
+{
+  "name": "Better Guacamole",
+  "description": "A fresh and vibrant homemade guacamole made with ripe avocados, red onion, lime juice, and tomato.",
+  "prep_time_minutes": 15,
+  "cook_time_minutes": 0,
+  "servings": 4,
+  "weather_temp": "warm",
+  "weather_condition": "sunny",
+  "ingredients": [
+    {
+      "name": "avocado",
+      "quantity": 4,
+      "unit": "whole",
+      "category": "fruit"
+    },
+    {
+      "name": "red onion",
+      "quantity": 1,
+      "unit": "cups",
+      "category": "vegetable"
+    },
+    {
+      "name": "lime juice",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "sea salt",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "tomato",
+      "quantity": 1,
+      "unit": "whole",
+      "category": "vegetable"
+    }
+  ],
+  "instructions": [
+    "Using a knife, cut avocados in half and remove pits.",
+    "Using spoon, scoop out green flesh into a medium sized non-reactive bowl.",
+    "Using a potato masher or a fork, mash the avocados.",
+    "Add chopped onion, lime juice, salt, and pepper.",
+    "Mix with a spatula until well combined.",
+    "Using a clean spoon, taste the guacamole and add more lime juice, salt, or pepper to your taste.",
+    "Chop tomato and mix in with guacamole if serving immediately.",
+    "If not serving immediately, store tomatoes in an air tight container and mix into guacamole right before serving."
+  ],
+  "tags": [
+    "appetizers",
+    "dip",
+    "mexican"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/guacamole/"
+}

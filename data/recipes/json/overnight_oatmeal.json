@@ -1,0 +1,47 @@
+{
+  "name": "Overnight Oatmeal",
+  "description": "This oatmeal parfait requires no cooking.",
+  "prep_time_minutes": 5,
+  "cook_time_minutes": 0,
+  "servings": 2,
+  "weather_temp": "warm",
+  "weather_condition": "sunny",
+  "ingredients": [
+    {
+      "name": "oats",
+      "quantity": 0.67,
+      "unit": "cups",
+      "category": "grain"
+    },
+    {
+      "name": "greek yogurt",
+      "quantity": 0.67,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "name": "water",
+      "quantity": 0.67,
+      "unit": "cups",
+      "category": "beverage"
+    },
+    {
+      "name": "vanilla extract",
+      "quantity": 1.0,
+      "unit": "teaspoons",
+      "category": "other"
+    }
+  ],
+  "instructions": [
+    "Combine ingredients in a large mason jar (or divide between two mason jars).",
+    "Cover tightly with lid and shake.",
+    "Set in fridge overnight to chill.",
+    "Remove from fridge next morning and enjoy!"
+  ],
+  "tags": [
+    "breakfast",
+    "no-cook",
+    "vegetarian"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/overnight-oatmeal/"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Baked Avocado Fries",
+  "description": "A crispy, low-fat baked treat that mimics the technique used in eggplant parmesan.",
+  "prep_time_minutes": 20,
+  "cook_time_minutes": 18,
+  "servings": 4,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "flour",
+      "quantity": 0.33,
+      "unit": "cups",
+      "category": "grain"
+    },
+    {
+      "name": "ancho chili powder",
+      "quantity": 0.5,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "pepper",
+      "quantity": 0.25,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "eggs",
+      "quantity": 2,
+      "unit": "whole",
+      "category": "protein"
+    },
+    {
+      "name": "breadcrumbs",
+      "quantity": 1,
+      "unit": "cups",
+      "category": "grain"
+    },
+    {
+      "name": "avocados",
+      "quantity": 2,
+      "unit": "whole",
+      "category": "fruit"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 425°F and set up three bowls in a line next to a rimmed baking sheet with a wire rack insert.",
+    "In the first small bowl, combine flour, chili powder, sea salt, and pepper, then set aside.",
+    "In the second small bowl, whisk eggs until smooth.",
+    "In the third small bowl, place panko breadcrumbs.",
+    "Cut avocados in half and slice into 5 to 6 wedges per side.",
+    "Working in batches, place avocado wedges in bowl with flour mixture, turning to coat evenly.",
+    "Transfer to the second bowl with eggs and turn to coat, then finally coat with panko.",
+    "Place coated wedge on wire rack placed over a rimmed baking sheet and repeat with remaining wedges.",
+    "Bake at 425°F until golden brown, about 16 to 18 minutes.",
+    "Remove and let cool slightly before serving plain or with your favorite dip."
+  ],
+  "tags": [
+    "appetizer",
+    "vegetarian",
+    "low-fat"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/baked-avocado-fries/"
+}

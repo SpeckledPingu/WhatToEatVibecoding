@@ -1,0 +1,103 @@
+{
+  "name": "Low-Carb Oatmeal Pancakes",
+  "description": "A hearty, low-carb pancake recipe made with ground oats that leaves you feeling satisfied and is a great choice for diabetics.",
+  "prep_time_minutes": 15,
+  "cook_time_minutes": 20,
+  "servings": 16,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "cooking spray",
+      "quantity": 1.0,
+      "unit": "cans",
+      "category": "other"
+    },
+    {
+      "name": "oats",
+      "quantity": 2.0,
+      "unit": "cups",
+      "category": "grain"
+    },
+    {
+      "name": "flour",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "grain"
+    },
+    {
+      "name": "sugar",
+      "quantity": 2.0,
+      "unit": "tablespoons",
+      "category": "other"
+    },
+    {
+      "name": "baking powder",
+      "quantity": 1.0,
+      "unit": "teaspoons",
+      "category": "other"
+    },
+    {
+      "name": "baking soda",
+      "quantity": 1.0,
+      "unit": "teaspoons",
+      "category": "other"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "eggs",
+      "quantity": 3.0,
+      "unit": "whole",
+      "category": "protein"
+    },
+    {
+      "name": "butter",
+      "quantity": 4.0,
+      "unit": "tablespoons",
+      "category": "dairy"
+    },
+    {
+      "name": "buttermilk",
+      "quantity": 2.0,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "name": "syrup",
+      "quantity": 1.0,
+      "unit": "tablespoons",
+      "category": "condiment"
+    }
+  ],
+  "instructions": [
+    "Preheat a lightly greased cast iron skillet or griddle over medium heat.",
+    "In a food processor fitted with a sharp blade, process oats until they have turned into a medium ground flour, then transfer to a medium bowl.",
+    "Add flour, sugar, baking powder, baking soda, cinnamon, and salt to the bowl with ground quick oats and whisk to combine.",
+    "In a small bowl, whisk eggs and melted butter until smooth.",
+    "Add buttermilk to eggs and whisk to combine.",
+    "Pour wet ingredients into bowl with dry ingredients and whisk to combine until lumps of flour have broken down.",
+    "If possible, let batter rest for 10 minutes to allow oats to absorb liquid.",
+    "Grease a cast-iron or nonstick skillet and heat on the stove over medium heat, testing with a few drops of water until it sizzles.",
+    "Pour 0.25 cup of batter onto skillet for each pancake, being careful not to crowd them.",
+    "Bake until bottoms are golden brown, edges appear to be dry, and bubbles have formed on the top, about 2 minutes.",
+    "Flip pancake and let cook on the other side until done, about 2 additional minutes.",
+    "Repeat with remaining batter and serve with a light drizzle of syrup."
+  ],
+  "tags": [
+    "breakfast",
+    "low-carb",
+    "diabetic-friendly"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/low-carb-oatmeal-pancakes/"
+}

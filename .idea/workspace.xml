@@ -1,28 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="980eff68-0ece-44c6-a57c-481811d3a711" name="Changes" comment="" />
+    <list default="true" id="980eff68-0ece-44c6-a57c-481811d3a711" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/apple_cake.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/baked_avocado_fries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/baked_kale_chips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/baked_potatoes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/beet_chips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/better_guacamole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/better_hummus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/better_potato_salad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/better_scrambled_eggs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/cannellini_beans_w_rosemary_garlic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/homemade_banana_chips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/homemade_tortilla_chips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/low_carb_oatmeal_pancakes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/mashed_cauliflower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/overnight_oatmeal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/purple_potato_chips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/spicy_soyriso_scramble.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/spinach_artichoke_dip.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/sugar_and_spice_granola.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/json/waffles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/apple_cake.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/baked_avocado_fries.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/baked_kale_chips.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/baked_potatoes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/beet_chips.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/better_guacamole.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/better_hummus.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/better_potato_salad.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/better_scrambled_eggs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/cannellini_beans_w_rosemary_garlic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/homemade_banana_chops.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/homemade_tortilla_chips.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/low_carb_oatmeal_pancakes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/mashed_cauliflower.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/overnight_oatmeal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/purple_potato_chips.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/spicy_soyriso_scramble.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/spinach_artichoke_dip.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/sugar_and_spice_granola.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recipes/markdown/waffles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="project-scaffold" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SpeckledPingu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SpeckledPingu/WhatToEatVibecoding.git",
+    "accountId": "66c617b5-b9cb-4443-8af1-b68bc95db61a"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="3B8MyCWW4eoSZTAFY6IzhhTSuFz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "demo__branch/add-recipes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/recipes/json" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -38,10 +122,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773866495075</updated>
+      <workItem from="1773866496080" duration="5950000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

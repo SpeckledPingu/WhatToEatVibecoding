@@ -1,0 +1,73 @@
+{
+  "name": "Mashed Cauliflower",
+  "description": "A smooth, creamy side dish that's silky smooth and has 75% fewer carbs than mashed potatoes.",
+  "prep_time_minutes": 15,
+  "cook_time_minutes": 10,
+  "servings": 4,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "water",
+      "quantity": 16.0,
+      "unit": "cups",
+      "category": "other"
+    },
+    {
+      "name": "cauliflower",
+      "quantity": 1.0,
+      "unit": "head",
+      "category": "vegetable"
+    },
+    {
+      "name": "parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "name": "butter",
+      "quantity": 3.0,
+      "unit": "tablespoons",
+      "category": "dairy"
+    },
+    {
+      "name": "cream cheese",
+      "quantity": 1.0,
+      "unit": "tablespoons",
+      "category": "dairy"
+    },
+    {
+      "name": "garlic",
+      "quantity": 2.0,
+      "unit": "cloves",
+      "category": "vegetable"
+    },
+    {
+      "name": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "pepper",
+      "quantity": 0.25,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Bring water to a boil in a large stockpot.",
+    "Wash and cut cauliflower into small pieces.",
+    "Cook in boiling water until soft, about 8 to 10 minutes.",
+    "Drain and place in a salad spinner or between paper towels and pat to dry.",
+    "Place in a food processor.",
+    "Add remaining ingredients to food processor and process until smooth.",
+    "Transfer to a bowl and serve."
+  ],
+  "tags": [
+    "side dish",
+    "low carb"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/mashed-cauliflower/"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Spinach Artichoke Dip",
+  "description": "A warm, creamy, and rich appetizer perfect for winter gatherings and family feasts.",
+  "prep_time_minutes": 10,
+  "cook_time_minutes": 25,
+  "servings": 8,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "spinach",
+      "quantity": 10,
+      "unit": "ounces",
+      "category": "vegetable"
+    },
+    {
+      "name": "artichokes",
+      "quantity": 12,
+      "unit": "ounces",
+      "category": "vegetable"
+    },
+    {
+      "name": "cream cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "category": "dairy"
+    },
+    {
+      "name": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "condiment"
+    },
+    {
+      "name": "parmesan cheese",
+      "quantity": 1,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "name": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "category": "vegetable"
+    },
+    {
+      "name": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "other"
+    },
+    {
+      "name": "breadcrumbs",
+      "quantity": 1.5,
+      "unit": "cups",
+      "category": "grain"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 375°F.",
+    "Thaw and drain spinach, then press between layers of paper towels or cheese cloth to remove excess moisture.",
+    "Drain and chop artichoke hearts.",
+    "In a large bowl, combine spinach, artichoke hearts, cream cheese, mayonnaise, Parmesan cheese, garlic, and lemon juice, stirring well.",
+    "Spoon into a lightly greased 11 x 7 x 1-1/2 inch baking dish and sprinkle with breadcrumbs.",
+    "Bake at 375°F for 25 minutes.",
+    "Serve warm with assorted crackers or bread."
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "comfort food"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/spinach-artichoke-dip/"
+}

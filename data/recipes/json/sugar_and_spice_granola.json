@@ -1,0 +1,88 @@
+{
+  "name": "Sugar and Spice and Everything Nice Granola",
+  "description": "This easy-to-make granola is sweetened with brown sugar and accented with notes of cinnamon and nutmeg.",
+  "prep_time_minutes": 10,
+  "cook_time_minutes": 20,
+  "servings": 12,
+  "weather_temp": "cold",
+  "weather_condition": "cloudy",
+  "ingredients": [
+    {
+      "name": "rolled oats",
+      "quantity": 4.0,
+      "unit": "cups",
+      "category": "grain"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "other"
+    },
+    {
+      "name": "walnuts or pecans",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "protein"
+    },
+    {
+      "name": "almonds",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "protein"
+    },
+    {
+      "name": "cinnamon",
+      "quantity": 1.0,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "butter",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "name": "honey",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "condiment"
+    },
+    {
+      "name": "raisins",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "fruit"
+    },
+    {
+      "name": "golden raisins",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "fruit"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 325°F.",
+    "Mix oats, sugar, nuts, cinnamon, and nutmeg together in a large bowl.",
+    "In a large microwave safe measuring cup, melt butter on high, about 1 minute.",
+    "Pour honey into measuring cup with melted butter and stir to combine.",
+    "Pour into bowl with oats and sugar.",
+    "Transfer mixture onto a rimmed baking sheet or a 9x13 baking dish.",
+    "Bake at 325°F until toasted and golden brown, about 20 minutes.",
+    "Remove from oven and let cool on a wire rack.",
+    "Once cool, break up any large pieces and transfer to a large container with an airtight lid.",
+    "Add raisins and stir to combine."
+  ],
+  "tags": [
+    "breakfast",
+    "baked"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/sugar-and-spice-granola/"
+}

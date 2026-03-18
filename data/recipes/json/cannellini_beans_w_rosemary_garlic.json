@@ -1,0 +1,80 @@
+{
+  "name": "Cannellini Beans with Rosemary and Garlic",
+  "description": "Fresh rosemary plays off of the rich, deep flavor of the beans and miso to create a hearty and satisfying side dish.",
+  "prep_time_minutes": 30,
+  "cook_time_minutes": 75,
+  "servings": 8,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "cannellini beans",
+      "quantity": 16,
+      "unit": "ounces",
+      "category": "protein"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "onion",
+      "quantity": 0.5,
+      "unit": "whole",
+      "category": "vegetable"
+    },
+    {
+      "name": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "category": "vegetable"
+    },
+    {
+      "name": "rosemary",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "spice"
+    },
+    {
+      "name": "white miso",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "white wine",
+      "quantity": 0.5,
+      "unit": "cups",
+      "category": "beverage"
+    },
+    {
+      "name": "salt",
+      "quantity": 1,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "pepper",
+      "quantity": 0.5,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Cook beans according to package directions and reserve in a bowl.",
+    "Heat oil in a small sauce pan.",
+    "Sauté the onion lightly in the olive oil over medium heat until the onions are soft and translucent, about 3-4 minutes.",
+    "Add garlic and rosemary to pan and sauté until fragrant, about 2 minutes.",
+    "Add reserved beans and white miso to the pan, stir well to combine, and cook until boiling, about 2 to 3 minutes.",
+    "Add white wine to pan, stir well, reduce heat, and simmer until liquid has cooked down, about 5 to 10 minutes.",
+    "Add salt and pepper, taste, and adjust seasonings accordingly before serving."
+  ],
+  "tags": [
+    "side dish",
+    "vegetarian",
+    "hearty"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/rosemary-cannellini-beans/"
+}

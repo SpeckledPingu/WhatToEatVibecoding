@@ -1,0 +1,96 @@
+{
+  "name": "Better Potato Salad",
+  "description": "This simple, no-fuss recipe focuses the potatoes without drowning them in mounds of mustard or mayonnaise.",
+  "prep_time_minutes": 15,
+  "cook_time_minutes": 30,
+  "servings": 6,
+  "weather_temp": "warm",
+  "weather_condition": "sunny",
+  "ingredients": [
+    {
+      "name": "red potatoes",
+      "quantity": 3.0,
+      "unit": "pounds",
+      "category": "vegetable"
+    },
+    {
+      "name": "salt",
+      "quantity": 2.0,
+      "unit": "tablespoons",
+      "category": "spice"
+    },
+    {
+      "name": "mayonnaise",
+      "quantity": 1.0,
+      "unit": "cups",
+      "category": "condiment"
+    },
+    {
+      "name": "buttermilk",
+      "quantity": 0.25,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "name": "dijon mustard",
+      "quantity": 2.0,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "salt",
+      "quantity": 1.0,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "pepper",
+      "quantity": 1.0,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "celery",
+      "quantity": 2.0,
+      "unit": "stalks",
+      "category": "vegetable"
+    },
+    {
+      "name": "red onion",
+      "quantity": 0.5,
+      "unit": "whole",
+      "category": "vegetable"
+    },
+    {
+      "name": "salt",
+      "quantity": 2.0,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Wash potatoes to remove any dirt.",
+    "Place whole, unpeeled potatoes and salt in a large, empty stock pot.",
+    "Fill with water until potatoes are submerged by 2 inches of water.",
+    "Bring to a boil over high heat, then reduce heat to a simmer.",
+    "Simmer until potatoes are starting to become tender when pierced with a fork or knife, about 10 to 15 minutes.",
+    "Drain into a colander and place colander into now empty pot.",
+    "Cover with a clean dish towel to create a steam chamber for the potatoes.",
+    "Let the potatoes sit and steam under their own residual heat until the potatoes have settled and become soft but not mushy, about 15 additional minutes.",
+    "While potatoes steam, in a small bowl, mix together mayonnaise, buttermilk, Dijon mustard, salt, and pepper.",
+    "Set dressing aside.",
+    "Chop celery and red onion and reserve in a small bowl.",
+    "When potatoes are cool enough to handle, cut them into quarters or eighths.",
+    "Place cut potatoes in large, empty bowl.",
+    "Pour reserved dressing over potatoes and stir until potatoes are well coated.",
+    "Add celery, onions, and salt.",
+    "Mix to combine.",
+    "Serve warm or cover and keep in fridge for up to 2 days."
+  ],
+  "tags": [
+    "side dish",
+    "salad",
+    "vegetarian"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/potato-salad/"
+}

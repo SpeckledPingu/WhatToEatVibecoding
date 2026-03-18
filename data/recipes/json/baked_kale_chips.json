@@ -1,0 +1,46 @@
+{
+  "name": "Baked Kale Chips",
+  "description": "All of the joys of a crispy, salty snack combined with the nutritional benefits of kale.",
+  "prep_time_minutes": 5,
+  "cook_time_minutes": 20,
+  "servings": 4,
+  "weather_temp": "cold",
+  "weather_condition": "sunny",
+  "ingredients": [
+    {
+      "name": "kale",
+      "quantity": 10,
+      "unit": "ounces",
+      "category": "vegetable"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "sea salt",
+      "quantity": 1,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 300°F.",
+    "Rinse kale and remove leaves from stems, tearing leaves into 1 to 2 inch pieces and discarding stems.",
+    "Place kale in a large bowl and add olive oil and sea salt.",
+    "Use your hands to toss and evenly coat kale.",
+    "Place kale on a large baking sheet in a single layer and place in preheated oven.",
+    "After about 10 minutes of cooking, use a pair of tongs to turn kale over and shake pan to evenly distribute kale.",
+    "Bake at 300°F until kale is crispy and edges are turning light brown, about 10 additional minutes.",
+    "If kale is not yet crispy or is still slightly soft or soggy, turn off oven and return pan to oven for an additional 10 to 20 minutes to allow excess moisture to evaporate.",
+    "Remove from oven and place in a bowl, let cool 5 minutes and serve."
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "vegetarian"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/baked-kale-chips/"
+}

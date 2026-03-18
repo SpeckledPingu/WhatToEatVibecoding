@@ -1,0 +1,57 @@
+{
+  "name": "Better Scrambled Eggs",
+  "description": "A creamy scrambled egg dish made by whisking eggs with half-and-half and cooking them over moderate heat in a buttered skillet.",
+  "prep_time_minutes": 10,
+  "cook_time_minutes": 5,
+  "servings": 2,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "butter",
+      "quantity": 1.0,
+      "unit": "tablespoons",
+      "category": "dairy"
+    },
+    {
+      "name": "egg",
+      "quantity": 5.0,
+      "unit": "whole",
+      "category": "protein"
+    },
+    {
+      "name": "half-and-half",
+      "quantity": 3.0,
+      "unit": "tablespoons",
+      "category": "dairy"
+    },
+    {
+      "name": "sea salt",
+      "quantity": 0.5,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Place butter on medium to large cast iron skillet.",
+    "Preheat skillet just below medium heat until butter has melted and started to bubble.",
+    "In a non-reactive bowl, whisk together eggs, half-and-half, salt, and pepper until mixture is smooth.",
+    "Once skillet has preheated, add egg mixture.",
+    "Using a wooden spoon or spatula, gently stir eggs as they cook to scramble.",
+    "Remove from heat when eggs are mostly cooked and just slightly runny.",
+    "Continue to stir until just finished.",
+    "Serve immediately, perhaps with bacon or on top of a buttermilk biscuit."
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "vegetarian"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/scrambled-eggs/"
+}

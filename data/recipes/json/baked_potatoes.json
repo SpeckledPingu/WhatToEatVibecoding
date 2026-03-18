@@ -1,0 +1,50 @@
+{
+  "name": "Foolproof Baked Potatoes",
+  "description": "Follow this simple guidelines you'll end up with a delicious, soft, perfectly-cooked spud every time.",
+  "prep_time_minutes": 5,
+  "cook_time_minutes": 45,
+  "servings": 1,
+  "weather_temp": "cold",
+  "weather_condition": "rainy",
+  "ingredients": [
+    {
+      "name": "russet potato",
+      "quantity": 1.0,
+      "unit": "whole",
+      "category": "vegetable"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 0.25,
+      "unit": "teaspoons",
+      "category": "condiment"
+    },
+    {
+      "name": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoons",
+      "category": "spice"
+    },
+    {
+      "name": "butter",
+      "quantity": 1.0,
+      "unit": "pieces",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to your desired temperature of 400°F, 350°F, or 325°F.",
+    "Rinse and clean each potato under running water.",
+    "Pierce each potato with a fork at 1-inch intervals all around to allow steam to escape.",
+    "Place on a foil-lined baking sheet.",
+    "For a soft skin, rub each potato with olive oil all over.",
+    "Sprinkle salt over potatoes.",
+    "Bake in oven using one of the temperatures above until potatoes can be easily pierced with a fork and register an internal temperature of 250°F on an instant read thermometer.",
+    "Serve with butter."
+  ],
+  "tags": [
+    "side dish",
+    "potato"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/foolproof-baked-potatoes/"
+}

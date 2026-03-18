@@ -1,0 +1,46 @@
+{
+  "name": "Purple Potato Chips",
+  "description": "When you have fresh purple potatoes, it's only natural to turn them into delicious homemade potato chips.",
+  "prep_time_minutes": 15,
+  "cook_time_minutes": 15,
+  "servings": 4,
+  "weather_temp": "cold",
+  "weather_condition": "cloudy",
+  "ingredients": [
+    {
+      "name": "purple potato",
+      "quantity": 1.0,
+      "unit": "pounds",
+      "category": "vegetable"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1.0,
+      "unit": "tablespoons",
+      "category": "condiment"
+    },
+    {
+      "name": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoons",
+      "category": "spice"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 450°F.",
+    "Wash and peel potatoes.",
+    "Cut into 1/16-inch thick slices with a mandoline or a sharp knife.",
+    "Place cut potato slices in a large bowl.",
+    "Toss potatoes with olive oil and salt until well coated.",
+    "Arrange slices in a single layer on a rimmed baking sheet.",
+    "Bake at 450°F until chips are starting to brown on the edges, about 15 to 18 minutes.",
+    "Remove from oven and place on a wire rack to cool, about 20 minutes, before serving.",
+    "If chips are not crispy enough, return to oven to bake at 450°F for an additional 5 minutes."
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "baked"
+  ],
+  "source": "https://www.makebetterfood.com/recipes/purple-potato-chips/"
+}
