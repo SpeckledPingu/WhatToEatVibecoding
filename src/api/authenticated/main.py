@@ -43,7 +43,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from src.database import create_db_and_tables, get_engine
 
 # Import route modules — same as simple API PLUS auth routes
-from src.api.authenticated.routes import auth, recipes, inventory, matching, ingestion
+from src.api.authenticated.routes import auth, recipes, inventory, matching, ingestion, weather
 
 # Import the User model so SQLModel registers it for table creation
 from src.api.authenticated.auth import User  # noqa: F401
@@ -97,6 +97,7 @@ app.include_router(recipes.router, prefix="/recipes", tags=["Recipes"])
 app.include_router(inventory.router, prefix="/inventory", tags=["Inventory"])
 app.include_router(matching.router, prefix="/matching", tags=["Matching"])
 app.include_router(ingestion.router, prefix="/ingest", tags=["Ingestion"])
+app.include_router(weather.router, prefix="/weather", tags=["Weather"])
 
 
 # ==========================================================================
@@ -136,6 +137,7 @@ def root():
             "/inventory": "View your food inventory and expiration status",
             "/matching": "See which recipes match your current inventory",
             "/ingest": "Trigger data ingestion from files",
+            "/weather": "Current weather and weather-based recipe recommendations",
         },
         "note": "GET endpoints are public. POST/PUT/DELETE require authentication.",
     }

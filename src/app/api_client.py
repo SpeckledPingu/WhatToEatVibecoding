@@ -262,3 +262,55 @@ class WhatToEatAPI:
     def ingest_pantry(self) -> dict:
         """Ingest pantry CSV files from data/pantry/."""
         return self._request("POST", "/ingest/pantry", timeout=60.0)
+
+    # ==================================================================
+    # Weather methods
+    # ==================================================================
+
+    def get_current_weather(
+        self,
+        latitude: float = 40.7128,
+        longitude: float = -74.0060,
+    ) -> dict:
+        """Get current weather data and recipe tag mapping."""
+        return self._request(
+            "GET", "/weather/current",
+            params={"latitude": latitude, "longitude": longitude},
+        )
+
+    def get_current_weather_by_city(self, city: str) -> dict:
+        """Get current weather for a named city."""
+        return self._request("GET", f"/weather/current/{city}")
+
+    def get_weather_recommendations(
+        self,
+        latitude: float = 40.7128,
+        longitude: float = -74.0060,
+        include_almost: bool = True,
+        max_missing: int = 2,
+    ) -> dict:
+        """Get weather-based recipe recommendations by coordinates."""
+        return self._request(
+            "GET", "/weather/recommendations",
+            params={
+                "latitude": latitude,
+                "longitude": longitude,
+                "include_almost": include_almost,
+                "max_missing": max_missing,
+            },
+        )
+
+    def get_weather_recommendations_by_city(
+        self,
+        city: str,
+        include_almost: bool = True,
+        max_missing: int = 2,
+    ) -> dict:
+        """Get weather-based recipe recommendations for a named city."""
+        return self._request(
+            "GET", f"/weather/recommendations/{city}",
+            params={
+                "include_almost": include_almost,
+                "max_missing": max_missing,
+            },
+        )

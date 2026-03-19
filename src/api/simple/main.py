@@ -30,7 +30,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.database import create_db_and_tables, get_engine
-from src.api.simple.routes import recipes, inventory, matching, ingestion
+from src.api.simple.routes import recipes, inventory, matching, ingestion, weather
 
 # ==========================================================================
 # Create the FastAPI application
@@ -99,6 +99,7 @@ app.include_router(recipes.router, prefix="/recipes", tags=["Recipes"])
 app.include_router(inventory.router, prefix="/inventory", tags=["Inventory"])
 app.include_router(matching.router, prefix="/matching", tags=["Matching"])
 app.include_router(ingestion.router, prefix="/ingest", tags=["Ingestion"])
+app.include_router(weather.router, prefix="/weather", tags=["Weather"])
 
 
 # ==========================================================================
@@ -135,5 +136,6 @@ def root():
             "/inventory": "View your food inventory and expiration status",
             "/matching": "See which recipes match your current inventory",
             "/ingest": "Trigger data ingestion from files",
+            "/weather": "Current weather and weather-based recipe recommendations",
         },
     }

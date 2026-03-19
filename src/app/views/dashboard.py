@@ -172,10 +172,52 @@ def render(api: WhatToEatAPI):
         st.info("No items expiring in the next 14 days.")
 
     # ------------------------------------------------------------------
+    # Weather widget
+    # ------------------------------------------------------------------
+    st.markdown("---")
+    _render_weather_widget(api)
+
+    # ------------------------------------------------------------------
     # Quick actions
     # ------------------------------------------------------------------
     st.markdown("---")
     _render_quick_actions(api)
+
+
+def _render_weather_widget(api: WhatToEatAPI):
+    """Render a weather summary widget on the dashboard."""
+    st.subheader("Today's Weather")
+
+    weather_data = api.get_current_weather()
+
+    if isinstance(weather_data, dict) and "error" in weather_data:
+        st.info("Weather unavailable — start the API server to see weather data.")
+        return
+
+    weather = weather_data.get("weather", {})
+    tags = weather_data.get("recipe_tags", {})
+    temp_f = weather.get("temperature_f")
+    description = weather.get("description", "unknown")
+    recipe_temp = tags.get("weather_temp")
+    recipe_condition = tags.get("weather_condition")
+
+    # Weather display
+    condition_emoji = {"sunny": "☀️", "cloudy": "☁️", "rainy": "🌧️"}.get(
+        recipe_condition, "🌡️"
+    )
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("Temperature", f"{temp_f}°F" if temp_f is not None else "N/A")
+    with col2:
+        st.metric("Condition", f"{condition_emoji} {description}")
+    with col3:
+        # Count weather-appropriate makeable recipes
+        recs = api.get_weather_recommendations()
+        weather_makeable = 0
+        if isinstance(recs, dict) and "recommendations" in recs:
+            weather_makeable = len(recs["recommendations"].get("perfect_for_today", []))
+        st.metric("Weather-Matched Recipes", weather_makeable)
 
 
 def _render_quick_actions(api: WhatToEatAPI):

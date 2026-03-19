@@ -46,7 +46,7 @@ if _PROJECT_ROOT not in sys.path:
 import streamlit as st
 
 from src.app.api_client import WhatToEatAPI
-from src.app.views import recipe_browser, add_recipe, inventory, what_can_i_make, dashboard
+from src.app.views import recipe_browser, add_recipe, inventory, what_can_i_make, dashboard, weather_recommendations
 
 
 # ==========================================================================
@@ -106,6 +106,7 @@ with st.sidebar:
             "Add Recipe",
             "Inventory",
             "What Can I Make?",
+            "Weather Recommendations",
             "Dashboard",
         ],
         key="current_page",
@@ -163,5 +164,7 @@ elif page == "Inventory":
     inventory.render(api)
 elif page == "What Can I Make?":
     what_can_i_make.render(api)
+elif page == "Weather Recommendations":
+    weather_recommendations.render(api)
 elif page == "Dashboard":
     dashboard.render(api)
