@@ -1,0 +1,26 @@
+item_name,normalized_name,quantity,unit_price,total_price,category,store_name,purchase_date
+chicken breast,chicken breast,3,9.68,29.04,protein,Publix,2026-03-02
+eggs,eggs,1,3.72,3.72,protein,Publix,2026-03-02
+milk,milk,1,3.68,3.68,dairy,Publix,2026-03-02
+yogurt,yogurt,1,5.85,5.85,dairy,Publix,2026-03-02
+creamer,creamer,1,6.52,6.52,dairy,Publix,2026-03-02
+onion,onion,2,1.2,2.4,vegetable,Publix,2026-03-02
+garlic,garlic,3,0.77,2.31,vegetable,Publix,2026-03-02
+potato,potato,2,1.0,2.0,vegetable,Publix,2026-03-02
+carrot,carrot,1,2.33,2.33,vegetable,Publix,2026-03-02
+lettuce,lettuce,1,3.44,3.44,vegetable,Publix,2026-03-02
+banana,banana,8,0.28,2.24,fruit,Publix,2026-03-02
+lemon,lemon,2,0.78,1.56,fruit,Publix,2026-03-02
+avocado,avocado,2,1.48,2.96,fruit,Publix,2026-03-02
+tomato,tomato,6,0.87,5.22,fruit,Publix,2026-03-02
+bread,bread,1,3.69,3.69,grain,Publix,2026-03-02
+orange juice,orange juice,1,3.72,3.72,beverage,Publix,2026-03-02
+honey,honey,1,8.29,8.29,condiment,Publix,2026-03-02
+bacon,bacon,1,7.6,7.6,protein,Publix,2026-03-02
+ketchup,ketchup,1,3.4,3.4,condiment,Publix,2026-03-02
+zucchini,zucchini,3,1.65,4.95,vegetable,Publix,2026-03-02
+pasta,pasta,2,1.32,2.64,grain,Publix,2026-03-02
+trail mix,trail mix,1,7.1,7.1,snack,Publix,2026-03-02
+parmesan,parmesan,1,7.75,7.75,dairy,Publix,2026-03-02
+butter,butter,1,4.0,4.0,dairy,Publix,2026-03-02
+soy sauce,soy sauce,1,3.62,3.62,condiment,Publix,2026-03-02

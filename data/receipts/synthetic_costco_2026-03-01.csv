@@ -1,0 +1,26 @@
+item_name,normalized_name,quantity,unit_price,total_price,category,store_name,purchase_date
+chicken breast,chicken breast,4,5.37,21.48,protein,Costco,2026-03-01
+eggs,eggs,4,4.06,16.24,protein,Costco,2026-03-01
+cheese,cheese,4,4.73,18.92,dairy,Costco,2026-03-01
+yogurt,yogurt,4,3.89,15.56,dairy,Costco,2026-03-01
+creamer,creamer,2,4.23,8.46,dairy,Costco,2026-03-01
+onion,onion,4,1.11,4.44,vegetable,Costco,2026-03-01
+garlic,garlic,4,0.56,2.24,vegetable,Costco,2026-03-01
+carrot,carrot,2,1.31,2.62,vegetable,Costco,2026-03-01
+banana,banana,14,0.27,3.78,fruit,Costco,2026-03-01
+apple,apple,6,0.89,5.34,fruit,Costco,2026-03-01
+avocado,avocado,6,1.27,7.62,fruit,Costco,2026-03-01
+bread,bread,2,3.94,7.88,grain,Costco,2026-03-01
+orange juice,orange juice,2,4.18,8.36,beverage,Costco,2026-03-01
+sour cream,sour cream,2,2.46,4.92,dairy,Costco,2026-03-01
+celery,celery,2,1.52,3.04,vegetable,Costco,2026-03-01
+chips,chips,2,3.22,6.44,snack,Costco,2026-03-01
+granola bar,granola bar,4,3.79,15.16,snack,Costco,2026-03-01
+blueberry,blueberry,2,3.2,6.4,fruit,Costco,2026-03-01
+almond milk,almond milk,2,3.91,7.82,beverage,Costco,2026-03-01
+cucumber,cucumber,4,1.13,4.52,vegetable,Costco,2026-03-01
+sparkling water,sparkling water,4,3.39,13.56,beverage,Costco,2026-03-01
+oats,oats,2,3.53,7.06,grain,Costco,2026-03-01
+popcorn,popcorn,2,3.27,6.54,snack,Costco,2026-03-01
+black beans,black beans,6,1.42,8.52,protein,Costco,2026-03-01
+hummus,hummus,2,3.98,7.96,snack,Costco,2026-03-01

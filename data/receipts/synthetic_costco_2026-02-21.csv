@@ -1,0 +1,26 @@
+item_name,normalized_name,quantity,unit_price,total_price,category,store_name,purchase_date
+chicken breast,chicken breast,2,7.48,14.96,protein,Costco,2026-02-21
+eggs,eggs,2,3.27,6.54,protein,Costco,2026-02-21
+milk,milk,2,3.86,7.72,dairy,Costco,2026-02-21
+cheese,cheese,2,3.72,7.44,dairy,Costco,2026-02-21
+yogurt,yogurt,4,4.73,18.92,dairy,Costco,2026-02-21
+creamer,creamer,2,4.8,9.6,dairy,Costco,2026-02-21
+onion,onion,4,1.07,4.28,vegetable,Costco,2026-02-21
+spinach,spinach,2,3.54,7.08,vegetable,Costco,2026-02-21
+lettuce,lettuce,2,2.29,4.58,vegetable,Costco,2026-02-21
+apple,apple,10,0.95,9.5,fruit,Costco,2026-02-21
+lemon,lemon,6,0.55,3.3,fruit,Costco,2026-02-21
+avocado,avocado,8,1.22,9.76,fruit,Costco,2026-02-21
+tomato,tomato,8,0.62,4.96,fruit,Costco,2026-02-21
+bread,bread,2,3.75,7.5,grain,Costco,2026-02-21
+orange juice,orange juice,2,4.07,8.14,beverage,Costco,2026-02-21
+tortilla,tortilla,2,2.41,4.82,grain,Costco,2026-02-21
+butter,butter,2,4.25,8.5,dairy,Costco,2026-02-21
+cucumber,cucumber,2,0.92,1.84,vegetable,Costco,2026-02-21
+blueberry,blueberry,2,2.82,5.64,fruit,Costco,2026-02-21
+granola,granola,2,4.84,9.68,grain,Costco,2026-02-21
+almond milk,almond milk,2,3.31,6.62,beverage,Costco,2026-02-21
+lentils,lentils,2,2.35,4.7,protein,Costco,2026-02-21
+pasta,pasta,4,1.71,6.84,grain,Costco,2026-02-21
+chicken broth,chicken broth,4,1.8,7.2,condiment,Costco,2026-02-21
+cereal,cereal,4,4.02,16.08,grain,Costco,2026-02-21

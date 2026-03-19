@@ -1,0 +1,65 @@
+item_name,quantity,unit,location,condition,category,date_inventoried,notes
+bread,0.1,loaf,pantry,opened,grain,2026-03-18,almost empty
+ground beef,0.5,pounds,fridge,good,protein,2026-03-18,
+garlic,0.22,bulb,fridge,opened,vegetable,2026-03-18,
+creamer,0.38,bottle,fridge,good,dairy,2026-03-18,full package
+hot sauce,0.24,bottle,fridge,opened,condiment,2026-03-18,
+cereal,0.83,box,pantry,good,grain,2026-03-18,
+tea,0.71,box,fridge,good,beverage,2026-03-18,
+sausage,0.49,package,fridge,opened,protein,2026-03-18,
+sweet potato,1.39,whole,fridge,opened,vegetable,2026-03-18,about half full
+salmon,1.06,pounds,fridge,good,protein,2026-03-18,just bought
+parmesan,0.1,container,fridge,opened,dairy,2026-03-18,
+lemon,0.46,whole,freezer,good,fruit,2026-03-18,
+bacon,0.16,package,fridge,good,protein,2026-03-18,
+sour cream,0.59,container,fridge,good,dairy,2026-03-18,
+crackers,0.76,box,pantry,good,grain,2026-03-18,plenty left
+blueberry,0.91,container,counter,good,fruit,2026-03-18,
+onion,0.81,whole,fridge,good,vegetable,2026-03-18,unopened
+rice,0.16,bag,pantry,opened,grain,2026-03-18,use soon
+popcorn,0.89,bag,pantry,good,snack,2026-03-18,
+chicken breast,0.23,pounds,fridge,good,protein,2026-03-18,
+chocolate chips,0.69,bag,pantry,opened,snack,2026-03-18,
+salsa,0.32,jar,counter,good,condiment,2026-03-18,full package
+mushroom,0.93,container,freezer,frozen,vegetable,2026-03-18,
+butter,1.0,stick,fridge,good,dairy,2026-03-18,
+paprika,0.25,bottle,pantry,opened,spice,2026-03-18,
+lettuce,0.39,head,fridge,good,vegetable,2026-03-18,full package
+milk,0.56,gallon,fridge,opened,dairy,2026-03-18,
+cheese,0.27,package,fridge,good,dairy,2026-03-18,
+coffee,0.24,bag,pantry,good,beverage,2026-03-18,
+tortilla,0.88,package,fridge,good,grain,2026-03-18,
+granola bar,0.21,box,pantry,opened,snack,2026-03-18,use soon
+tomato sauce,0.81,can,pantry,good,condiment,2026-03-18,
+strawberry,0.62,container,counter,good,fruit,2026-03-18,
+garlic powder,1.0,bottle,pantry,good,spice,2026-03-18,
+corn,1.41,ear,freezer,frozen,vegetable,2026-03-18,double wrapped
+tomato,2.69,whole,counter,good,fruit,2026-03-18,
+hummus,0.37,container,pantry,good,snack,2026-03-18,
+oats,0.2,container,pantry,good,grain,2026-03-18,
+orange juice,0.19,carton,fridge,opened,beverage,2026-03-18,resealable bag
+avocado,1.12,whole,counter,wilting,fruit,2026-03-18,getting soft
+mustard,0.77,bottle,pantry,opened,condiment,2026-03-18,
+shrimp,0.89,pounds,fridge,good,protein,2026-03-18,
+carrot,0.1,bag,fridge,opened,vegetable,2026-03-18,
+spinach,0.39,bag,fridge,opened,vegetable,2026-03-18,about half full
+black beans,2.68,can,fridge,good,protein,2026-03-18,
+celery,0.82,bunch,fridge,good,vegetable,2026-03-18,full package
+lentils,0.47,bag,counter,wilting,protein,2026-03-18,
+cucumber,0.85,whole,fridge,good,vegetable,2026-03-18,
+ketchup,0.51,bottle,freezer,frozen,condiment,2026-03-18,
+asparagus,0.27,bunch,fridge,good,vegetable,2026-03-18,
+banana,1.87,whole,counter,wilting,fruit,2026-03-18,
+potato,0.93,pounds,fridge,wilting,vegetable,2026-03-18,
+bell pepper,2.17,whole,fridge,good,vegetable,2026-03-18,
+cumin,0.62,bottle,pantry,good,spice,2026-03-18,full package
+jam,0.76,jar,counter,good,condiment,2026-03-18,full package
+mayonnaise,0.7,jar,counter,wilting,condiment,2026-03-18,getting soft
+yogurt,0.76,container,fridge,opened,dairy,2026-03-18,use soon
+chips,1.24,bag,pantry,opened,snack,2026-03-18,
+heavy cream,0.49,pint,fridge,good,dairy,2026-03-18,
+orange,1.26,whole,counter,good,fruit,2026-03-18,
+red pepper flakes,0.18,bottle,pantry,opened,spice,2026-03-18,
+peanut butter,0.78,jar,pantry,good,condiment,2026-03-18,
+granola,0.32,bag,pantry,good,grain,2026-03-18,
+vinegar,0.67,bottle,pantry,good,condiment,2026-03-18,full package

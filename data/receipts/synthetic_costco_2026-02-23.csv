@@ -1,0 +1,26 @@
+item_name,normalized_name,quantity,unit_price,total_price,category,store_name,purchase_date
+chicken breast,chicken breast,2,4.87,9.74,protein,Costco,2026-02-23
+eggs,eggs,2,3.59,7.18,protein,Costco,2026-02-23
+yogurt,yogurt,4,4.92,19.68,dairy,Costco,2026-02-23
+creamer,creamer,2,4.29,8.58,dairy,Costco,2026-02-23
+potato,potato,10,0.9,9.0,vegetable,Costco,2026-02-23
+carrot,carrot,2,1.93,3.86,vegetable,Costco,2026-02-23
+spinach,spinach,2,3.4,6.8,vegetable,Costco,2026-02-23
+tomato,tomato,10,0.67,6.7,fruit,Costco,2026-02-23
+bread,bread,2,2.45,4.9,grain,Costco,2026-02-23
+honey,honey,2,5.9,11.8,condiment,Costco,2026-02-23
+orange,orange,10,0.72,7.2,fruit,Costco,2026-02-23
+sparkling water,sparkling water,2,3.81,7.62,beverage,Costco,2026-02-23
+maple syrup,maple syrup,2,6.61,13.22,condiment,Costco,2026-02-23
+parmesan,parmesan,2,4.0,8.0,dairy,Costco,2026-02-23
+blueberry,blueberry,2,3.52,7.04,fruit,Costco,2026-02-23
+hummus,hummus,2,3.93,7.86,snack,Costco,2026-02-23
+salsa,salsa,2,3.14,6.28,condiment,Costco,2026-02-23
+almond milk,almond milk,2,3.66,7.32,beverage,Costco,2026-02-23
+zucchini,zucchini,4,1.12,4.48,vegetable,Costco,2026-02-23
+meatball,meatball,2,6.64,13.28,protein,Costco,2026-02-23
+oats,oats,2,3.28,6.56,grain,Costco,2026-02-23
+flour,flour,2,2.66,5.32,grain,Costco,2026-02-23
+black beans,black beans,4,1.68,6.72,protein,Costco,2026-02-23
+celery,celery,2,1.68,3.36,vegetable,Costco,2026-02-23
+asparagus,asparagus,2,3.04,6.08,vegetable,Costco,2026-02-23

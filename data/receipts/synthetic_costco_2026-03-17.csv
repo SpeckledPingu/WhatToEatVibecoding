@@ -1,0 +1,26 @@
+item_name,normalized_name,quantity,unit_price,total_price,category,store_name,purchase_date
+eggs,eggs,4,3.1,12.4,protein,Costco,2026-03-17
+milk,milk,2,3.46,6.92,dairy,Costco,2026-03-17
+cheese,cheese,4,4.31,17.24,dairy,Costco,2026-03-17
+yogurt,yogurt,6,4.84,29.04,dairy,Costco,2026-03-17
+creamer,creamer,2,4.95,9.9,dairy,Costco,2026-03-17
+onion,onion,4,0.93,3.72,vegetable,Costco,2026-03-17
+garlic,garlic,6,0.67,4.02,vegetable,Costco,2026-03-17
+spinach,spinach,2,3.46,6.92,vegetable,Costco,2026-03-17
+banana,banana,8,0.2,1.6,fruit,Costco,2026-03-17
+apple,apple,8,0.95,7.6,fruit,Costco,2026-03-17
+lemon,lemon,4,0.46,1.84,fruit,Costco,2026-03-17
+orange juice,orange juice,2,2.98,5.96,beverage,Costco,2026-03-17
+chicken broth,chicken broth,2,2.45,4.9,condiment,Costco,2026-03-17
+lime,lime,6,0.28,1.68,fruit,Costco,2026-03-17
+almond milk,almond milk,2,3.76,7.52,beverage,Costco,2026-03-17
+salsa,salsa,2,2.55,5.1,condiment,Costco,2026-03-17
+popcorn,popcorn,2,3.12,6.24,snack,Costco,2026-03-17
+crackers,crackers,2,3.06,6.12,grain,Costco,2026-03-17
+bell pepper,bell pepper,8,1.44,11.52,vegetable,Costco,2026-03-17
+chips,chips,2,3.03,6.06,snack,Costco,2026-03-17
+hot sauce,hot sauce,2,3.48,6.96,condiment,Costco,2026-03-17
+trail mix,trail mix,2,4.1,8.2,snack,Costco,2026-03-17
+rice,rice,2,3.95,7.9,grain,Costco,2026-03-17
+mushroom,mushroom,2,3.11,6.22,vegetable,Costco,2026-03-17
+sausage,sausage,2,5.16,10.32,protein,Costco,2026-03-17

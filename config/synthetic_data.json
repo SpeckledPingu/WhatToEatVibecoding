@@ -1,0 +1,219 @@
+{
+  "_README": "Configuration for generating realistic synthetic grocery data. Edit this file to customize what items get generated, store profiles, pricing, and shopping patterns. The Python generation scripts read this file — no code changes needed to adjust the output. Following the project's 'configuration over code' principle: data is specific, code is generic.",
+
+  "food_items": {
+    "_description": "Food items organized by category, each with realistic price ranges, units, typical purchase quantities, and how often a household typically buys them. Frequencies: 'weekly' = every trip, 'biweekly' = every other trip, 'monthly' = once a month, 'occasional' = randomly. Based on patterns observed in real receipt data from this project.",
+
+    "protein": [
+      {"name": "chicken breast", "price_range": [5.99, 9.99], "unit": "pounds", "typical_qty": [1, 3], "frequency": "weekly"},
+      {"name": "ground beef", "price_range": [4.99, 8.99], "unit": "pounds", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "salmon", "price_range": [8.99, 14.99], "unit": "pounds", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "bacon", "price_range": [5.49, 7.99], "unit": "package", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "eggs", "price_range": [3.49, 5.99], "unit": "dozen", "typical_qty": [1, 2], "frequency": "weekly"},
+      {"name": "shrimp", "price_range": [7.99, 12.99], "unit": "pounds", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "sausage", "price_range": [3.99, 6.49], "unit": "package", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "meatball", "price_range": [6.99, 10.99], "unit": "package", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "tofu", "price_range": [2.49, 3.99], "unit": "block", "typical_qty": [1, 2], "frequency": "monthly"},
+      {"name": "black beans", "price_range": [1.29, 2.49], "unit": "can", "typical_qty": [1, 3], "frequency": "biweekly"},
+      {"name": "chickpeas", "price_range": [1.29, 2.49], "unit": "can", "typical_qty": [1, 2], "frequency": "monthly"},
+      {"name": "lentils", "price_range": [1.99, 3.49], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"}
+    ],
+
+    "dairy": [
+      {"name": "milk", "price_range": [3.49, 5.49], "unit": "gallon", "typical_qty": [1, 1], "frequency": "weekly"},
+      {"name": "cheese", "price_range": [3.49, 5.99], "unit": "package", "typical_qty": [1, 2], "frequency": "weekly"},
+      {"name": "butter", "price_range": [3.99, 5.99], "unit": "stick", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "yogurt", "price_range": [3.99, 6.49], "unit": "container", "typical_qty": [1, 3], "frequency": "weekly"},
+      {"name": "cream cheese", "price_range": [2.49, 3.99], "unit": "package", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "sour cream", "price_range": [2.29, 3.49], "unit": "container", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "heavy cream", "price_range": [3.49, 5.49], "unit": "pint", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "creamer", "price_range": [4.49, 6.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "weekly"},
+      {"name": "parmesan", "price_range": [4.99, 7.99], "unit": "container", "typical_qty": [1, 1], "frequency": "monthly"}
+    ],
+
+    "vegetable": [
+      {"name": "onion", "price_range": [0.79, 1.49], "unit": "whole", "typical_qty": [2, 5], "frequency": "weekly"},
+      {"name": "garlic", "price_range": [0.49, 0.99], "unit": "bulb", "typical_qty": [1, 3], "frequency": "weekly"},
+      {"name": "potato", "price_range": [0.79, 1.29], "unit": "pounds", "typical_qty": [2, 5], "frequency": "weekly"},
+      {"name": "carrot", "price_range": [1.29, 2.49], "unit": "bag", "typical_qty": [1, 1], "frequency": "weekly"},
+      {"name": "celery", "price_range": [1.49, 2.49], "unit": "bunch", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "broccoli", "price_range": [1.49, 2.99], "unit": "head", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "spinach", "price_range": [2.49, 4.49], "unit": "bag", "typical_qty": [1, 1], "frequency": "weekly"},
+      {"name": "bell pepper", "price_range": [0.99, 1.99], "unit": "whole", "typical_qty": [2, 4], "frequency": "biweekly"},
+      {"name": "mushroom", "price_range": [2.49, 3.99], "unit": "container", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "lettuce", "price_range": [1.99, 3.49], "unit": "head", "typical_qty": [1, 1], "frequency": "weekly"},
+      {"name": "cucumber", "price_range": [0.79, 1.49], "unit": "whole", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "zucchini", "price_range": [0.99, 1.79], "unit": "whole", "typical_qty": [1, 3], "frequency": "biweekly"},
+      {"name": "sweet potato", "price_range": [0.99, 1.79], "unit": "whole", "typical_qty": [2, 4], "frequency": "biweekly"},
+      {"name": "corn", "price_range": [0.49, 0.99], "unit": "ear", "typical_qty": [3, 6], "frequency": "monthly"},
+      {"name": "green beans", "price_range": [1.99, 3.49], "unit": "bag", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "asparagus", "price_range": [2.99, 4.99], "unit": "bunch", "typical_qty": [1, 1], "frequency": "monthly"}
+    ],
+
+    "fruit": [
+      {"name": "banana", "price_range": [0.25, 0.35], "unit": "whole", "typical_qty": [4, 8], "frequency": "weekly"},
+      {"name": "apple", "price_range": [0.79, 1.49], "unit": "whole", "typical_qty": [3, 6], "frequency": "weekly"},
+      {"name": "orange", "price_range": [0.59, 1.29], "unit": "whole", "typical_qty": [3, 6], "frequency": "biweekly"},
+      {"name": "lemon", "price_range": [0.49, 0.99], "unit": "whole", "typical_qty": [2, 4], "frequency": "weekly"},
+      {"name": "avocado", "price_range": [1.29, 2.49], "unit": "whole", "typical_qty": [2, 4], "frequency": "weekly"},
+      {"name": "strawberry", "price_range": [2.99, 4.99], "unit": "container", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "blueberry", "price_range": [3.49, 5.99], "unit": "container", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "grape", "price_range": [2.99, 4.99], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "tomato", "price_range": [0.69, 1.49], "unit": "whole", "typical_qty": [3, 6], "frequency": "weekly"},
+      {"name": "lime", "price_range": [0.33, 0.59], "unit": "whole", "typical_qty": [2, 4], "frequency": "biweekly"}
+    ],
+
+    "grain": [
+      {"name": "bread", "price_range": [2.99, 4.99], "unit": "loaf", "typical_qty": [1, 1], "frequency": "weekly"},
+      {"name": "rice", "price_range": [2.49, 5.99], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "pasta", "price_range": [1.29, 2.49], "unit": "box", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "tortilla", "price_range": [2.49, 3.99], "unit": "package", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "oats", "price_range": [2.99, 4.99], "unit": "container", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "flour", "price_range": [2.49, 4.49], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "cereal", "price_range": [3.49, 5.99], "unit": "box", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "crackers", "price_range": [2.99, 4.49], "unit": "box", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "granola", "price_range": [3.99, 6.49], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"}
+    ],
+
+    "condiment": [
+      {"name": "olive oil", "price_range": [6.99, 12.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "soy sauce", "price_range": [2.49, 4.49], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "ketchup", "price_range": [2.49, 3.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "mustard", "price_range": [1.99, 3.49], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "mayonnaise", "price_range": [3.49, 5.49], "unit": "jar", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "honey", "price_range": [5.99, 9.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "hot sauce", "price_range": [2.49, 4.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "salsa", "price_range": [2.99, 4.49], "unit": "jar", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "peanut butter", "price_range": [3.49, 5.99], "unit": "jar", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "jam", "price_range": [2.99, 4.99], "unit": "jar", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "tomato sauce", "price_range": [1.49, 2.99], "unit": "can", "typical_qty": [1, 3], "frequency": "biweekly"},
+      {"name": "chicken broth", "price_range": [1.99, 3.49], "unit": "carton", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "vinegar", "price_range": [2.49, 3.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "maple syrup", "price_range": [6.99, 11.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"}
+    ],
+
+    "snack": [
+      {"name": "chips", "price_range": [2.99, 4.99], "unit": "bag", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "nuts", "price_range": [5.99, 9.99], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "chocolate chips", "price_range": [2.99, 4.49], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "popcorn", "price_range": [2.99, 4.99], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "granola bar", "price_range": [3.49, 5.49], "unit": "box", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "hummus", "price_range": [3.49, 4.99], "unit": "container", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "pretzels", "price_range": [2.49, 3.99], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "trail mix", "price_range": [4.99, 7.99], "unit": "bag", "typical_qty": [1, 1], "frequency": "monthly"}
+    ],
+
+    "beverage": [
+      {"name": "coffee", "price_range": [7.99, 12.99], "unit": "bag", "typical_qty": [1, 1], "frequency": "biweekly"},
+      {"name": "tea", "price_range": [3.49, 5.99], "unit": "box", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "orange juice", "price_range": [3.49, 5.49], "unit": "carton", "typical_qty": [1, 1], "frequency": "weekly"},
+      {"name": "sparkling water", "price_range": [3.99, 5.99], "unit": "pack", "typical_qty": [1, 2], "frequency": "biweekly"},
+      {"name": "almond milk", "price_range": [3.49, 4.99], "unit": "carton", "typical_qty": [1, 1], "frequency": "biweekly"}
+    ],
+
+    "spice": [
+      {"name": "salt", "price_range": [1.49, 2.99], "unit": "container", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "black pepper", "price_range": [2.99, 4.99], "unit": "container", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "cumin", "price_range": [2.49, 3.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "paprika", "price_range": [2.49, 3.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "cinnamon", "price_range": [2.99, 4.49], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "garlic powder", "price_range": [2.49, 3.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "italian seasoning", "price_range": [2.49, 3.99], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"},
+      {"name": "red pepper flakes", "price_range": [2.49, 3.49], "unit": "bottle", "typical_qty": [1, 1], "frequency": "monthly"}
+    ]
+  },
+
+  "store_profiles": {
+    "_description": "Each store has its own personality — different prices, product focus, and how often you visit. The price_factor multiplies base prices (1.0 = normal, 0.95 = 5% cheaper, 1.1 = 10% more expensive). Category_weights influence which categories are more likely purchased at each store (higher = more likely). Visit_weight controls how often this store is chosen for a trip.",
+
+    "Publix": {
+      "price_factor": 1.0,
+      "visit_weight": 0.45,
+      "category_weights": {
+        "protein": 1.2, "dairy": 1.1, "vegetable": 1.0, "fruit": 1.0,
+        "grain": 1.0, "condiment": 1.0, "snack": 1.0, "beverage": 1.0, "spice": 1.0
+      },
+      "description": "Full-service grocery, slightly premium pricing, good deli"
+    },
+    "Trader Joes": {
+      "price_factor": 0.90,
+      "visit_weight": 0.30,
+      "category_weights": {
+        "protein": 0.9, "dairy": 1.2, "vegetable": 1.1, "fruit": 1.1,
+        "grain": 1.2, "condiment": 1.3, "snack": 1.5, "beverage": 1.0, "spice": 1.2
+      },
+      "description": "Unique products, good prices, strong snack and specialty items"
+    },
+    "Costco": {
+      "price_factor": 0.80,
+      "visit_weight": 0.15,
+      "qty_multiplier": 2.0,
+      "category_weights": {
+        "protein": 1.5, "dairy": 1.3, "vegetable": 0.7, "fruit": 0.8,
+        "grain": 1.2, "condiment": 1.0, "snack": 1.3, "beverage": 1.2, "spice": 0.5
+      },
+      "description": "Bulk warehouse, lower per-unit prices, larger quantities"
+    },
+    "Farmers Market": {
+      "price_factor": 1.15,
+      "visit_weight": 0.10,
+      "category_weights": {
+        "protein": 0.3, "dairy": 0.5, "vegetable": 2.0, "fruit": 2.0,
+        "grain": 0.5, "condiment": 0.8, "snack": 0.2, "beverage": 0.3, "spice": 0.5
+      },
+      "description": "Fresh local produce, seasonal availability, premium pricing"
+    }
+  },
+
+  "shopping_patterns": {
+    "_description": "Controls the rhythm and size of shopping trips. Real shopping follows patterns — most people shop on weekends, buy 15-20 items per trip, and have consistent weekly habits. These settings create that realism.",
+
+    "items_per_trip_range": [10, 25],
+    "day_of_week_weights": {
+      "_description": "How likely each day is for shopping. 0=Monday, 6=Sunday. Weekend-heavy is realistic for most households.",
+      "0": 0.05, "1": 0.08, "2": 0.10, "3": 0.12, "4": 0.15, "5": 0.25, "6": 0.25
+    },
+    "weekly_staple_probability": 0.85,
+    "biweekly_probability": 0.50,
+    "monthly_probability": 0.20,
+    "occasional_probability": 0.08
+  },
+
+  "seasonal_adjustments": {
+    "_description": "Optional month-based adjustments to item availability and frequency. Month numbers 1-12. Items listed here get a probability boost during their peak months. This makes the data more realistic — you buy more berries in summer and more squash in fall.",
+
+    "strawberry": {"peak_months": [4, 5, 6], "boost_factor": 2.0},
+    "blueberry": {"peak_months": [6, 7, 8], "boost_factor": 2.0},
+    "corn": {"peak_months": [6, 7, 8, 9], "boost_factor": 2.5},
+    "asparagus": {"peak_months": [3, 4, 5], "boost_factor": 2.0},
+    "sweet potato": {"peak_months": [9, 10, 11], "boost_factor": 1.5},
+    "zucchini": {"peak_months": [6, 7, 8], "boost_factor": 1.5},
+    "apple": {"peak_months": [9, 10, 11], "boost_factor": 1.5},
+    "orange": {"peak_months": [12, 1, 2, 3], "boost_factor": 1.5},
+    "grape": {"peak_months": [8, 9, 10], "boost_factor": 1.5}
+  },
+
+  "pantry_settings": {
+    "_description": "Controls pantry snapshot generation. Location assignments map categories to where items are typically stored. Condition probabilities control how likely items are to be in various states.",
+
+    "location_by_category": {
+      "protein": "fridge",
+      "dairy": "fridge",
+      "vegetable": "fridge",
+      "fruit": "counter",
+      "grain": "pantry",
+      "condiment": "pantry",
+      "snack": "pantry",
+      "beverage": "fridge",
+      "spice": "pantry"
+    },
+    "condition_probabilities": {
+      "_description": "Probability of each condition by location. Most items are 'good', but opened/wilting/frozen add realism.",
+      "fridge": {"good": 0.60, "opened": 0.30, "wilting": 0.10},
+      "freezer": {"frozen": 0.85, "good": 0.15},
+      "pantry": {"good": 0.55, "opened": 0.40, "sealed": 0.05},
+      "counter": {"good": 0.70, "opened": 0.15, "wilting": 0.15}
+    },
+    "quantity_consumed_range": [0.1, 1.0]
+  }
+}

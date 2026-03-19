@@ -1,0 +1,26 @@
+item_name,normalized_name,quantity,unit_price,total_price,category,store_name,purchase_date
+chicken breast,chicken breast,2,8.95,17.9,protein,Farmers Market,2026-03-10
+eggs,eggs,2,5.78,11.56,protein,Farmers Market,2026-03-10
+milk,milk,1,4.64,4.64,dairy,Farmers Market,2026-03-10
+creamer,creamer,1,5.38,5.38,dairy,Farmers Market,2026-03-10
+onion,onion,5,1.2,6.0,vegetable,Farmers Market,2026-03-10
+potato,potato,3,1.46,4.38,vegetable,Farmers Market,2026-03-10
+carrot,carrot,1,2.65,2.65,vegetable,Farmers Market,2026-03-10
+spinach,spinach,1,2.94,2.94,vegetable,Farmers Market,2026-03-10
+lettuce,lettuce,1,2.7,2.7,vegetable,Farmers Market,2026-03-10
+banana,banana,6,0.33,1.98,fruit,Farmers Market,2026-03-10
+lemon,lemon,4,0.58,2.32,fruit,Farmers Market,2026-03-10
+avocado,avocado,2,2.42,4.84,fruit,Farmers Market,2026-03-10
+tomato,tomato,5,1.14,5.7,fruit,Farmers Market,2026-03-10
+butter,butter,1,5.91,5.91,dairy,Farmers Market,2026-03-10
+blueberry,blueberry,1,5.16,5.16,fruit,Farmers Market,2026-03-10
+coffee,coffee,1,10.62,10.62,beverage,Farmers Market,2026-03-10
+lime,lime,2,0.39,0.78,fruit,Farmers Market,2026-03-10
+sweet potato,sweet potato,2,1.6,3.2,vegetable,Farmers Market,2026-03-10
+green beans,green beans,1,3.86,3.86,vegetable,Farmers Market,2026-03-10
+celery,celery,1,2.01,2.01,vegetable,Farmers Market,2026-03-10
+tomato sauce,tomato sauce,2,2.93,5.86,condiment,Farmers Market,2026-03-10
+vinegar,vinegar,1,4.58,4.58,condiment,Farmers Market,2026-03-10
+mustard,mustard,1,3.49,3.49,condiment,Farmers Market,2026-03-10
+pasta,pasta,2,1.76,3.52,grain,Farmers Market,2026-03-10
+sour cream,sour cream,1,3.81,3.81,dairy,Farmers Market,2026-03-10
