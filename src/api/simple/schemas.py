@@ -104,6 +104,10 @@ class RecipeCreate(BaseModel):
     source: Optional[str] = Field(
         default=None, description="Where the recipe came from (URL or description)"
     )
+    full_text_markdown: Optional[str] = Field(
+        default=None,
+        description="Full human-readable recipe text in Markdown format",
+    )
 
 
 class RecipeUpdate(BaseModel):
@@ -137,6 +141,10 @@ class RecipeUpdate(BaseModel):
     )
     tags: Optional[list[str]] = Field(default=None, description="Tags for filtering")
     source: Optional[str] = Field(default=None, description="Recipe source")
+    full_text_markdown: Optional[str] = Field(
+        default=None,
+        description="Full human-readable recipe text in Markdown format",
+    )
 
 
 # ==========================================================================
@@ -162,6 +170,9 @@ class RecipeResponse(BaseModel):
     tags: Optional[list] = Field(description="Recipe tags")
     source: Optional[str] = Field(description="Recipe source")
     source_file: str = Field(description="Original data file")
+    full_text_markdown: Optional[str] = Field(
+        default=None, description="Full recipe text in Markdown format"
+    )
     created_at: datetime = Field(description="When the recipe was added")
 
     # model_config tells Pydantic to read attributes from ORM objects (SQLModel models)
