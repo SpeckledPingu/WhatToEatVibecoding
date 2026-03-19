@@ -46,7 +46,7 @@ if _PROJECT_ROOT not in sys.path:
 import streamlit as st
 
 from src.app.api_client import WhatToEatAPI
-from src.app.pages import recipe_browser, add_recipe, inventory, what_can_i_make, dashboard
+from src.app.views import recipe_browser, add_recipe, inventory, what_can_i_make, dashboard
 
 
 # ==========================================================================
