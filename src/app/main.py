@@ -21,6 +21,28 @@ HOW TO RUN
     uv run streamlit run src/app/main.py
 """
 
+import sys
+from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# Fix the import path so "from src.*" imports work.
+#
+# WHY IS THIS NEEDED?
+# When you run `uv run streamlit run src/app/main.py`, Streamlit executes
+# this file as a standalone script. Python adds the FILE's directory
+# (src/app/) to sys.path, but NOT the project root. That means
+# `from src.app.api_client import ...` fails because Python can't find
+# a top-level "src" package.
+#
+# The fix: we figure out where the project root is (two levels up from this
+# file: src/app/main.py → src/app → src → project root) and add it to
+# sys.path if it's not already there. This makes all `from src.*` imports
+# work exactly as they do when running via `uv run python -m src.app.main`.
+# ---------------------------------------------------------------------------
+_PROJECT_ROOT = str(Path(__file__).resolve().parent.parent.parent)
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
+
 import streamlit as st
 
 from src.app.api_client import WhatToEatAPI
