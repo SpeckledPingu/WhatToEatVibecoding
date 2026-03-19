@@ -18,8 +18,8 @@ Set up this project's Python environment and install all necessary dependencies.
    - `matplotlib` — Data visualization and charting library
    - `httpx` — Modern HTTP client (used by Streamlit to call the REST APIs)
    - `python-multipart` — Handles form data and file uploads in FastAPI
-   - `passlib[bcrypt]` — Password hashing library for the authenticated API
-   - `python-jose[cryptography]` — JWT (JSON Web Token) creation and validation for authentication
+   - `bcrypt` — Password hashing library for the authenticated API (use bcrypt directly, not passlib)
+   - `pyjwt` — JWT (JSON Web Token) creation and validation for authentication (use PyJWT, not python-jose)
 
 4. **Verify the folder structure** exists as described in CLAUDE.md. Create any missing directories:
    ```

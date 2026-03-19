@@ -41,7 +41,7 @@ This workstream adds the simplest viable authentication:
    - Comment: Note that we store `hashed_password`, NEVER the plain text password
 
    **Password functions:**
-   - `hash_password(password: str) -> str` — uses passlib bcrypt
+   - `hash_password(password: str) -> str` — uses bcrypt directly (not passlib)
    - `verify_password(plain_password: str, hashed_password: str) -> bool`
    - Comments explaining:
      - What hashing is (one-way transformation — you can verify but never reverse)
